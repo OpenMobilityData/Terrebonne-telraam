@@ -1,0 +1,7 @@
+segment,location,season,hours,v85_median,v85_q1,v85_q3,cars_counted,share_over_30,share_over_40
+west,King Edward,winter,1216,35.0,25.5,41.5,36423,26.6,11.4
+west,King Edward,summer,1136,39.0,29.0,44.0,35002,32.2,15.6
+west,King Edward,shoulder,2539,37.5,24.0,43.5,87457,30.6,14.5
+east,Draper,winter,1474,33.5,29.0,37.5,124761,33.8,5.8
+east,Draper,summer,1322,37.0,36.0,38.0,158178,54.7,5.4
+east,Draper,shoulder,2542,37.0,35.5,38.5,314523,53.7,6.1

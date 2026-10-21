@@ -23,6 +23,7 @@ The hourly data can be pulled at any time from the Telraam API with `scripts/fet
 | `scripts/fetch_telraam.py` | Pull the hourly data from the Telraam API into `data/api/` (token in a config file outside git) |
 | `scripts/telraam_period_violins.py` | Year-over-year violin plots of daily bicycle counts for equivalent periods (whole winter, whole year, each month), comparing years on the calendar dates valid in every year shown; a period is drawn only when two years share at least 20 valid dates |
 | `figures/year-over-year/` | The figures (PNG and SVG), `telraam_{west,east}_{period}_en` |
+| `scripts/telraam_summaries.py` → `derived/daily.csv`, `derived/speeds_by_season.csv` | Daily totals per sensor (hours, uptime, bikes, cars, valid flag) and V85 / share of cars over 30 and 40 km/h by season, for downstream builds (the poster in Terrebonne-open-sources reads these) |
 
 **Valid day** (for the figures): at least 8 reported hours and at least 6 hours of summed uptime.
 
