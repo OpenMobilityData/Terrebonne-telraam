@@ -11,11 +11,16 @@ Hourly counts from two Telraam S2 sensors installed by the author on rue de Terr
 
 Both are Telraam S2 units (same hardware throughout). They count in **daylight only**: the "Bike Total" column is the daylight bicycle count, both directions; night-time traffic is reported as an undifferentiated "Night" class. Each hourly row carries an uptime value (the fraction of the hour with the sensor counting), stored by the dashboard as "Good uptime - 0.75" or "Poor uptime - 0.40". Levels are therefore not comparable with the borough's 24-hour loop counter.
 
+## Getting the data: the API first, the exports as the fallback
+
+The hourly data can be pulled at any time from the Telraam API with `scripts/fetch_telraam.py` (modelled on [BikeStat](https://github.com/OpenMobilityData/BikeStat)'s `refresh-telraam.sh`: `POST https://telraam-api.net/v1/reports/traffic`, level `segments`, format `per-hour`, in 90-day chunks). API segment ids: 9000007290 (King Edward, instance 9794), 9000007489 (Draper, instance 10045). The API token lives in `~/.terrebonne-telraam.conf` (chmod 600; never in this repository). Output: `data/api/<west|east>_<year>.csv`, one row per hour, local time; the figure script uses these when present. The dashboard exports in `data/raw/` are the same data as downloaded in 2025–2026 and remain as the fallback copy. The older working folder of MATLAB scripts that grew around these sensors is retired; the data, not those scripts, are what this repository keeps.
+
 ## Layout
 
 | Path | Content |
 |---|---|
 | `data/raw/raw-data-20YY{East,West}60.xlsx` | Hourly exports (60-minute resolution) by calendar year, as downloaded; never edited. 15-minute exports and older partial snapshots stay outside this repository |
+| `scripts/fetch_telraam.py` | Pull the hourly data from the Telraam API into `data/api/` (token in a config file outside git) |
 | `scripts/telraam_period_violins.py` | Year-over-year violin plots of daily bicycle counts for equivalent periods (whole winter, whole year, each month), comparing years on the calendar dates valid in every year shown; a period is drawn only when two years share at least 20 valid dates |
 | `figures/year-over-year/` | The figures (PNG and SVG), `telraam_{west,east}_{period}_en` |
 

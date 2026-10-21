@@ -6,7 +6,7 @@ For each sensor and period, the years that have data are compared on the calenda
 of them (valid day = at least MIN_HOURS reported hours and at least MIN_UPTIME hours of summed uptime). One violin per
 year, every day a point, median bar, middle-half box. A period is skipped when fewer than two years share MIN_DAYS dates.
 Telraam counts bicycles in daylight only; "Bike Total" is the sensor's daylight count, both directions.
-Input: ../data/raw/raw-data-20YY{East,West}60.xlsx (hourly). Output: ../figures/year-over-year/*.png|svg.
+Input: ../data/api/{west,east}_YYYY.csv from fetch_telraam.py if present, else ../data/raw/raw-data-20YY{East,West}60.xlsx. Output: ../figures/year-over-year/*.png|svg.
 Usage: python3 scripts/telraam_period_violins.py   (needs openpyxl, matplotlib)
 """
 import openpyxl, glob, os, re, datetime as dt, collections, statistics as st, random
@@ -33,6 +33,15 @@ def uptime(v):
 
 def daily(seg):
     day = collections.defaultdict(lambda: [0, 0.0, 0])
+    api = sorted(glob.glob(os.path.join(HERE, '..', 'data', 'api', f'{seg.lower()}_20*.csv')))   # written by fetch_telraam.py
+    if api:
+        import csv
+        for f in api:
+            with open(f, encoding='utf-8') as fh:
+                for r in csv.DictReader(fh):
+                    d = dt.datetime.fromisoformat(r['date']).date(); day[d][0] += 1; day[d][1] += uptime(r['uptime']); day[d][2] += int(float(r['bike'] or 0))
+        valid = {d: v[2] for d, v in day.items() if v[0] >= MIN_HOURS and v[1] >= MIN_UPTIME}
+        return valid, min(day), max(day)
     for f in sorted(glob.glob(os.path.join(RAW, f'raw-data-20*{seg}60.xlsx'))):
         ws = openpyxl.load_workbook(f, read_only=True, data_only=True).active
         it = ws.iter_rows(values_only=True); hdr = next(it); ix = {h: i for i, h in enumerate(hdr)}
