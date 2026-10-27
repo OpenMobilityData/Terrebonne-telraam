@@ -40,6 +40,10 @@ There are only two winters, both after the protected lane was built (2024); no p
 
 The exports are the author's own sensor data, downloaded from the Telraam dashboard (telraam.net) in 2025–2026. Telraam publishes sensor data as open data; the licence applying to these exports will be stated here once confirmed. Figures and scripts: CC BY 4.0.
 
+## Use of AI
+
+Much of the code and many of the drafts in this repository were produced with an AI assistant, Anthropic's Claude, in interactive sessions directed by the author. The author chose the questions, supplied the sources, reviewed every output, and checked every quotation, page reference and figure against the documents; the author alone is responsible for the content. Commits to which the assistant contributed name it as co-author, so the division of work is visible in the history, and errors found in its work are corrected in the open like any other. Nothing in `raw/` is edited by anyone, human or machine.
+
 ## About the author
 
 The requests were filed, and the derived documents written, by Rick Hoge, a resident of Côte-des-Neiges–Notre-Dame-de-Grâce who cycles on Terrebonne in every season. He works as a data scientist and is a professor in the Faculty of Medicine at McGill University, where his research is in neuroscience and biomedical engineering, including the effects of physical activity on brain health. The work in this repository is personal: it was done as a resident, on his own time, from public records, and represents no position of McGill University or of any other organization; the affiliation is given for identification only. Corrections are welcome through the repository's issue tracker.
