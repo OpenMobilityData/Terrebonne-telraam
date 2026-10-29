@@ -1,6 +1,6 @@
 # Terrebonne-telraam: two citizen traffic sensors on rue de Terrebonne (NDG, Montréal)
 
-Hourly counts from two Telraam S2 sensors installed by the author on rue de Terrebonne, exported from the Telraam dashboard, with the scripts and figures drawn from them. Companion to [Terrebonne-access-requests](https://github.com/OpenMobilityData/Terrebonne-access-requests) (the borough's own counter and documents) and [Terrebonne-open-sources](https://github.com/OpenMobilityData/Terrebonne-open-sources) (public records). Nothing here is an official count: the borough's loop counter at Kensington is the record; these sensors are the check and the history.
+Hourly counts from two Telraam S2 sensors installed by the author on rue de Terrebonne, exported from the Telraam dashboard, with the scripts and figures drawn from them (the exports themselves are not published here: see « Data and licence »). Companion to [Terrebonne-access-requests](https://github.com/OpenMobilityData/Terrebonne-access-requests) (the borough's own counter and documents) and [Terrebonne-open-sources](https://github.com/OpenMobilityData/Terrebonne-open-sources) (public records). Nothing here is an official count: the borough's loop counter at Kensington is the record; these sensors are the check and the history.
 
 ## The sensors
 
@@ -19,7 +19,7 @@ The hourly data can be pulled at any time from the Telraam API with `scripts/fet
 
 | Path | Content |
 |---|---|
-| `data/raw/raw-data-20YY{East,West}60.xlsx` | Hourly exports (60-minute resolution) by calendar year, as downloaded; never edited. 15-minute exports and older partial snapshots stay outside this repository |
+| (not in this repository) | The Telraam dashboard exports (`raw-data-20YY{East,West}{15,60}.xlsx`, 2024–2026) are kept privately by the author since October 29, 2026; see « Data and licence ». The scripts read them from a local copy (`TELRAAM_RAW`) |
 | `scripts/fetch_telraam.py` | Pull the hourly data from the Telraam API into `data/api/` (token in a config file outside git) |
 | `scripts/telraam_period_violins.py` | Year-over-year violin plots of daily bicycle counts for equivalent periods (whole winter, whole year, each month), comparing years on the calendar dates valid in every year shown; a period is drawn only when two years share at least 20 valid dates |
 | `figures/year-over-year/` | The figures (PNG and SVG), `telraam_{west,east}_{period}_en` |
@@ -36,9 +36,11 @@ The hourly data can be pulled at any time from the Telraam API with `scripts/fet
 
 There are only two winters, both after the protected lane was built (2024); no pre-lane winter exists in this record. Summer and February have one year of data only and are not drawn. Weather differs between the years compared; the 2025–26 winter had the second-lowest snow loading of eleven seasons.
 
-## Licence and provenance
+## Data and licence
 
-The exports are the author's own sensor data, downloaded from the Telraam dashboard (telraam.net) in 2025–2026. Telraam publishes sensor data as open data; the licence applying to these exports will be stated here once confirmed. Figures and scripts: CC BY 4.0.
+The counts belong to Telraam. Under Telraam's terms of use ([Conditions of Participation](https://telraam.net/en/terms-of-use), s. 2, as read on October 29, 2026), « all intellectual rights relating to the traffic counts collected and any database into which they are incorporated by Telraam shall be owned by Telraam », and a participant has « a limited, non-exclusive, non-transferable personal access right to the counting data produced by your Telraam device ». The terms grant no licence to republish the data. The ten dashboard exports this repository first held (`data/raw/`, 2024–2026) were therefore removed on October 29, 2026; the author keeps them privately, and the scripts read them from a local copy. The same counts can be viewed on [telraam.net](https://telraam.net) and queried through Telraam's API (segments 9000007290, King Edward, and 9000007489, Draper), under Telraam's own terms. This note will be updated if Telraam grants permission to republish the exports.
+
+The tables in `derived/` and the figures are computed from Telraam's counts (source: Telraam). The author's own work, the README, the figures and the method, is published under CC BY 4.0 ([`LICENSE`](LICENSE)), and the scripts under the MIT licence ([`LICENSE-CODE`](LICENSE-CODE)); neither licence covers Telraam's counts.
 
 ## Use of AI
 

@@ -6,7 +6,7 @@ For each sensor and period, the years that have data are compared on the calenda
 of them (valid day = at least MIN_HOURS reported hours and at least MIN_UPTIME hours of summed uptime). One violin per
 year, every day a point, median bar, middle-half box. A period is skipped when fewer than two years share MIN_DAYS dates.
 Telraam counts bicycles in daylight only; "Bike Total" is the sensor's daylight count, both directions.
-Input: ../data/api/{west,east}_YYYY.csv from fetch_telraam.py if present, else ../data/raw/raw-data-20YY{East,West}60.xlsx. Output: ../figures/year-over-year/*.png|svg.
+Input: ../data/api/{west,east}_YYYY.csv from fetch_telraam.py if present, else the dashboard exports raw-data-20YY{East,West}60.xlsx (private; see _raw_dir). Output: ../figures/year-over-year/*.png|svg.
 Usage: python3 scripts/telraam_period_violins.py   (needs openpyxl, matplotlib)
 """
 import openpyxl, glob, os, re, datetime as dt, collections, statistics as st, random
@@ -15,7 +15,13 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-RAW, OUT = os.path.join(HERE, '..', 'data', 'raw'), os.path.join(HERE, '..', 'figures', 'year-over-year')
+# The Telraam exports are not in this repository (Telraam owns the counts; see the README, « Data and licence »):
+# they are read from TELRAAM_RAW, else the owner's private copy, else data/raw/ beside this repository.
+def _raw_dir(here):
+    for d in (os.environ.get('TELRAAM_RAW', ''), os.path.expanduser('~/GitHub/Terrebonne-private/data/telraam/raw'), os.path.join(here, '..', 'data', 'raw')):
+        if d and os.path.isdir(d): return d
+    return os.path.join(here, '..', 'data', 'raw')
+RAW, OUT = _raw_dir(HERE), os.path.join(HERE, '..', 'figures', 'year-over-year')
 MIN_HOURS, MIN_UPTIME, MIN_DAYS = 8, 6.0, 20
 SEG = {'West': ('King Edward', 13374), 'East': ('Draper', 13690)}
 INK, MUTED = '#1f2428', '#5f6b74'
