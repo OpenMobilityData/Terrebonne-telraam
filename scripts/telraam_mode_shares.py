@@ -16,8 +16,9 @@ Valid day: at least MIN_HOURS reported hours and MIN_UPTIME hours of summed upti
 
 Output (per winter definition): derived/mode-shares/<def>/{monthly,weekly,periods}_<counter>.csv and
 figures/mode-shares/<def>/: shares_<counter>_<period>.png|svg (share of each mode by month, with the period total),
-counts_<counter>_<period>.png|svg (mean daily count per mode by month), and overview_<counter>.png|svg (weekly
-bicycles and cars per valid day over the whole record, winters shaded, coverage strip). Months with fewer than
+counts_<counter>_<period>.png|svg (mean daily count per mode by month), overview_<counter>.png|svg (weekly
+bicycles and cars per valid day over the whole record, winters shaded, coverage strip) and yoy_<counter>.png|svg (+ derived yoy_<counter>.csv:
+same calendar month year over year on the dates valid in every year shown). Months with fewer than
 THIN_DAYS valid days are marked † and drawn lighter.
 
 Usage: python3 scripts/telraam_mode_shares.py [--winter=nov16|dec1|both]   (needs openpyxl, matplotlib)
@@ -252,6 +253,47 @@ def fig_overview(counter, title, modes, daily, start, out, first, last, loop, wd
     plt.close(fig)
     return weeks
 
+YOY_MIN_DATES = 15
+YEAR_SHADES = {2024: '#86b6ef', 2025: '#2a78d6', 2026: '#104281'}   # one hue, ordinal (dataviz sequential blue 250 / 450 / 650)
+
+def fig_yoy(counter, title, modes, daily, out, csv_path, first, last, loop):
+    """same calendar month, year over year, on the dates valid in every year shown (>= YOY_MIN_DATES common dates): mean bicycles and cars per day"""
+    mv = 'motor' if loop else 'car'
+    bym = collections.defaultdict(lambda: collections.defaultdict(dict))   # month -> year -> day -> counter
+    for d, c in daily.items():
+        if c['_valid']: bym[d.month][d.year][d.day] = c
+    panels = []; rows = []
+    for m in sorted(bym):
+        years = sorted(y for y in bym[m] if len(bym[m][y]) >= YOY_MIN_DATES)
+        if len(years) < 2: continue
+        common = set.intersection(*(set(bym[m][y]) for y in years))
+        if len(common) < YOY_MIN_DATES: continue
+        vals = {y: (sum(bym[m][y][d]['bike'] for d in common) / len(common), sum(bym[m][y][d][mv] for d in common) / len(common)) for y in years}
+        panels.append((m, years, len(common), vals))
+        for y in years: rows.append({'month': dt.date(2001, m, 1).strftime('%B'), 'year': y, 'common_dates': len(common), 'bikes_per_day': round(vals[y][0], 1), f'{mv}s_per_day' if mv == 'car' else 'motor_per_day': round(vals[y][1], 1)})
+    if not panels: return
+    write_csv(csv_path, rows)
+    fig, axes = plt.subplots(2, 1, figsize=(max(7.5, 1.5 + 1.25 * len(panels)), 7.0), dpi=150, sharex=True, gridspec_kw={'hspace': 0.28})
+    allyears = sorted({y for _, ys, _, _ in panels for y in ys}); k = len(allyears); bw = 0.8 / k
+    for ax, idx, lab in ((axes[0], 0, 'bicycles per valid day' + ('' if loop else ' (daylight)')), (axes[1], 1, ('motor vehicles' if loop else 'cars') + ' per valid day' + ('' if loop else ' (daylight)'))):
+        top = 0
+        for i, (m, ys, n, vals) in enumerate(panels):
+            for y in ys:
+                j = allyears.index(y); x = i - 0.4 + bw * (j + 0.5); v = vals[y][idx]; top = max(top, v)
+                ax.bar(x, v, width=bw * 0.9, color=YEAR_SHADES.get(y, '#2a78d6'), zorder=3)
+                ax.text(x, v, f'{v:.0f}', ha='center', va='bottom', fontsize=7, color=INK)
+        ax.set_ylim(0, top * 1.18); ax.set_ylabel(lab, fontsize=9, color=MUTED); ax.yaxis.grid(True, color=GRID, linewidth=0.8, zorder=0); chrome(ax)
+    axes[1].set_xticks(range(len(panels))); axes[1].set_xticklabels([f'{dt.date(2001, m, 1):%B}\n{n} dates' for m, _, n, _ in panels], fontsize=8.5, color=INK, linespacing=1.4)
+    axes[1].set_xlim(-0.6, len(panels) - 0.4)
+    axes[0].legend(handles=[Patch(color=YEAR_SHADES.get(y, '#2a78d6'), label=str(y)) for y in allyears], loc='lower left', bbox_to_anchor=(0, 1.01), ncol=k, frameon=False, fontsize=8.5, handlelength=1.2, borderaxespad=0)
+    fig.suptitle(f'Same month, year over year: bicycles and {"motor vehicles" if loop else "cars"}\nrue de Terrebonne at {title}', x=0.06, ha='left', fontsize=10.5, fontweight='bold', color=INK, y=0.995, linespacing=1.3)
+    axes[0].set_title(textwrap.fill(f'Mean per day on the calendar dates valid in every year shown (at least {YOY_MIN_DATES} common dates; the number under each month). Weather and the sensor\'s uptime differ between years; two or three points make no trend.', 120), loc='left', fontsize=8, color=MUTED, pad=24, linespacing=1.3)
+    footer(fig, counter, first, last, loop)
+    fig.subplots_adjust(left=0.1, right=0.97, top=0.84, bottom=0.2)
+    for ext in ('png', 'svg'): fig.savefig(f'{out}.{ext}')
+    plt.close(fig)
+    print('   year over year: ' + '; '.join(f'{dt.date(2001, m, 1):%b} ' + ' / '.join(f'{y} {vals[y][0]:.0f}' for y in ys) for m, ys, n, vals in panels))
+
 def run(wdef):
     start, wlabel = WINTERS[wdef]
     dout, fout = os.path.join(ROOT, 'derived', 'mode-shares', wdef), os.path.join(ROOT, 'figures', 'mode-shares', wdef)
@@ -284,6 +326,7 @@ def run(wdef):
             fig_shares(counter, title, modes, ms, months, k[1], periods[k], os.path.join(fout, f'shares_{counter}_{k[0]}'), first, last, loop, wdef)
             fig_counts(counter, title, modes, ms, months, k[1], periods[k], os.path.join(fout, f'counts_{counter}_{k[0]}'), first, last, loop, wdef)
         fig_overview(counter, title, modes, daily, start, os.path.join(fout, f'overview_{counter}'), first, last, loop, wdef)
+        fig_yoy(counter, title, modes, daily, os.path.join(fout, f'yoy_{counter}'), os.path.join(dout, f'yoy_{counter}.csv'), first, last, loop)
 
 def main(argv):
     opts = dict(a[2:].split('=', 1) for a in argv if a.startswith('--') and '=' in a)
