@@ -284,33 +284,33 @@ def fig_yoy(counter, title, modes, daily, out, csv_path, first, last, loop):
             ndates += n
             for y in yrs: pooled[y] = (pooled[y][0] + vals[y][0] * n, pooled[y][1] + vals[y][1] * n)
         pooled = {y: (pooled[y][0] / ndates, pooled[y][1] / ndates) for y in yrs}
-        label = (f'{dt.date(2001, ms[0][0], 1):%b}–{dt.date(2001, ms[-1][0], 1):%b}' if len(ms) == ms[-1][0] - ms[0][0] + 1 else f'{len(ms)} common months') + f', {yrs[0]}–{str(yrs[-1])[2:]}'
+        label = (f'{dt.date(2001, ms[0][0], 1):%b}–{dt.date(2001, ms[-1][0], 1):%b}' if len(ms) == ms[-1][0] - ms[0][0] + 1 else f'{len(ms)} shared months') + f'\n{yrs[0]}–{str(yrs[-1])[2:]}'
         totals.append((label, yrs, ndates, pooled))
-        for y in yrs: rows.append({'month': 'TOTAL ' + label, 'year': y, 'common_dates': ndates, 'bikes_per_day': round(pooled[y][0], 1), f'{mv}s_per_day' if mv == 'car' else 'motor_per_day': round(pooled[y][1], 1)})
+        for y in yrs: rows.append({'month': 'TOTAL ' + label.replace('\n', ', '), 'year': y, 'common_dates': ndates, 'bikes_per_day': round(pooled[y][0], 1), f'{mv}s_per_day' if mv == 'car' else 'motor_per_day': round(pooled[y][1], 1)})
     write_csv(csv_path, rows)
     groups = panels + totals; gap = 0.6
-    xpos = [i for i in range(len(panels))] + [len(panels) + gap + j for j in range(len(totals))]
-    fig, axes = plt.subplots(2, 1, figsize=(max(7.5, 1.5 + 1.25 * len(groups)), 7.0), dpi=150, sharex=True, gridspec_kw={'hspace': 0.28})
+    xpos = [i for i in range(len(panels))] + [len(panels) + gap + 1.5 * j for j in range(len(totals))]
+    fig, axes = plt.subplots(2, 1, figsize=(max(7.5, 1.5 + 1.25 * len(groups) + 0.5 * len(totals)), 7.4), dpi=150, sharex=True, gridspec_kw={'hspace': 0.3})
     for ax, idx, lab in ((axes[0], 0, 'bicycles per valid day' + ('' if loop else ' (daylight)')), (axes[1], 1, ('motor vehicles' if loop else 'cars') + ' per valid day' + ('' if loop else ' (daylight)'))):
         top = 0
-        if totals: ax.axvspan(len(panels) + gap - 0.5, xpos[-1] + 0.5, color='#f1f2ef', zorder=0)
+        if totals: ax.axvspan(len(panels) + gap - 0.55, xpos[-1] + 0.55, color='#f1f2ef', zorder=0)
         for g, (_, ys, n, vals) in zip(xpos, groups):
             for y in ys:
                 j = allyears.index(y); x = g - 0.4 + bw * (j + 0.5); v = vals[y][idx]; top = max(top, v)
                 ax.bar(x, v, width=bw * 0.9, color=YEAR_SHADES.get(y, '#2a78d6'), zorder=3)
                 ax.text(x, v, f'{v:.0f}', ha='center', va='bottom', fontsize=7, color=INK)
         ax.set_ylim(0, top * 1.18); ax.set_ylabel(lab, fontsize=9, color=MUTED); ax.yaxis.grid(True, color=GRID, linewidth=0.8, zorder=0); chrome(ax)
-    axes[1].set_xticks(xpos); axes[1].set_xticklabels([f'{dt.date(2001, m, 1):%B}\n{n} dates' for m, _, n, _ in panels] + [f'Total, {lab}\n{n} dates a year' for lab, _, n, _ in totals], fontsize=8.5, color=INK, linespacing=1.4)
+    axes[1].set_xticks(xpos); axes[1].set_xticklabels([f'{dt.date(2001, m, 1):%B}\n{n} dates' for m, _, n, _ in panels] + [f'Total\n{lab}\n{n} dates a year' for lab, _, n, _ in totals], fontsize=8.5, color=INK, linespacing=1.4)
     for t in axes[1].get_xticklabels()[len(panels):]: t.set_fontweight('bold')
-    axes[1].set_xlim(-0.6, xpos[-1] + 0.6)
+    axes[1].set_xlim(-0.6, xpos[-1] + 0.65)
     axes[0].legend(handles=[Patch(color=YEAR_SHADES.get(y, '#2a78d6'), label=str(y)) for y in allyears], loc='lower left', bbox_to_anchor=(0, 1.01), ncol=k, frameon=False, fontsize=8.5, handlelength=1.2, borderaxespad=0)
     fig.suptitle(f'Same month, year over year: bicycles and {"motor vehicles" if loop else "cars"}\nrue de Terrebonne at {title}', x=0.06, ha='left', fontsize=10.5, fontweight='bold', color=INK, y=0.995, linespacing=1.3)
-    axes[0].set_title(textwrap.fill(f'Mean per day on the calendar dates valid in every year shown (at least {YOY_MIN_DATES} common dates; the number under each month). Totals at the right pool those dates: the two most recent years over every month they share, and all years over the months they all share. Weather and the sensor\'s uptime differ between years; two or three points make no trend.', 120), loc='left', fontsize=8, color=MUTED, pad=24, linespacing=1.3)
+    axes[0].set_title(textwrap.fill(f'Mean per day on the calendar dates valid in every year shown (at least {YOY_MIN_DATES} common dates; the number under each month). Totals at the right pool those same dates over the months the years share. Weather and the sensor\'s uptime differ between years.', 150), loc='left', fontsize=8, color=MUTED, pad=22, linespacing=1.3)
     footer(fig, counter, first, last, loop)
-    fig.subplots_adjust(left=0.1, right=0.97, top=0.84, bottom=0.2)
+    fig.subplots_adjust(left=0.08, right=0.98, top=0.82, bottom=0.2)
     for ext in ('png', 'svg'): fig.savefig(f'{out}.{ext}')
     plt.close(fig)
-    print('   year over year: ' + '; '.join(f'{dt.date(2001, m, 1):%b} ' + ' / '.join(f'{y} {vals[y][0]:.0f}' for y in ys) for m, ys, n, vals in panels) + ' | totals: ' + '; '.join(f'{lab} ({n} d) ' + ' / '.join(f'{y} {vals[y][0]:.0f} bikes, {vals[y][1]:.0f} ' + mv for y in ys) for lab, ys, n, vals in totals))
+    print('   year over year: ' + '; '.join(f'{dt.date(2001, m, 1):%b} ' + ' / '.join(f'{y} {vals[y][0]:.0f}' for y in ys) for m, ys, n, vals in panels) + ' | totals: ' + '; '.join(f'{lab.replace(chr(10), " ")} ({n} d) ' + ' / '.join(f'{y} {vals[y][0]:.0f} bikes, {vals[y][1]:.0f} ' + mv for y in ys) for lab, ys, n, vals in totals))
 
 def run(wdef):
     start, wlabel = WINTERS[wdef]
