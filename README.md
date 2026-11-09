@@ -24,6 +24,7 @@ The hourly data can be pulled at any time from the Telraam API with `scripts/fet
 | `scripts/telraam_period_violins.py` | Year-over-year violin plots of daily bicycle counts for equivalent periods (whole winter, whole year, each month), comparing years on the calendar dates valid in every year shown; a period is drawn only when two years share at least 20 valid dates |
 | `figures/year-over-year/` | The figures (PNG and SVG), `telraam_{west,east}_{period}_en` |
 | `scripts/telraam_mode_shares.py [--winter=nov16\|dec1\|both]` → `derived/mode-shares/<def>/`, `figures/mode-shares/<def>/` | Mode shares (pedestrians, bicycles, cars, heavy vehicles) and mean daily counts by mode, by month, by ISO week and by period (winter / non-winter), for each sensor and, on its own panel, the borough's loop counter at Kensington (bicycles and motor vehicles, 24 h, from Terrebonne-access-requests); figures per period (`shares_…`, `counts_…`) and one weekly overview per counter (`overview_…`, bicycles and cars per valid day, winters shaded, coverage strip). Two winter definitions: `nov16` = November 16 – March 31 (default), `dec1` = December 1 – March 31 |
+| `scripts/build_mode_shares_deck.py [--winter=nov16\|dec1]` → [`docs/telraam_mode_shares_deck_en.pdf`](docs/telraam_mode_shares_deck_en.pdf) (34 slides; [`_dec1`](docs/telraam_mode_shares_deck_en_dec1.pdf) variant) | Slide deck (beamer 16:9) built from the mode-share figures and tables: the question, the answer, counters and method, King Edward, Draper and Kensington slides, the period tables under both winter definitions, cautions, appendix with every remaining figure |
 | `scripts/telraam_summaries.py` → `derived/daily.csv`, `derived/speeds_by_season.csv` | Daily totals per sensor (hours, uptime, bikes, cars, valid flag) and V85 / share of cars over 30 and 40 km/h by season, for downstream builds (the poster in Terrebonne-open-sources reads these) |
 
 **Valid day** (for the figures): at least 8 reported hours and at least 6 hours of summed uptime.
@@ -41,7 +42,7 @@ There are only two winters, both after the protected lane was built (2024); no p
 
 `scripts/telraam_mode_shares.py` answers « who uses the street », by month and by period, from the daylight classes of each sensor. Shares are of everything the sensor classified in daylight over valid days (night traffic is an undifferentiated class and is left out), so they are **daylight shares**: cars also drive at night, bicycles much less, and a 24-hour share would give bicycles less. The loop counter at Kensington, drawn on its own panel, gives the 24-hour picture for bicycles against motor vehicles.
 
-With winter = November 16 – March 31 (`figures/mode-shares/nov16/`, tables in `derived/mode-shares/nov16/`):
+The figures are collected in a slide deck, [`docs/telraam_mode_shares_deck_en.pdf`](docs/telraam_mode_shares_deck_en.pdf) (`scripts/build_mode_shares_deck.py`). With winter = November 16 – March 31 (`figures/mode-shares/nov16/`, tables in `derived/mode-shares/nov16/`):
 
 | Counter | Period | Valid days | Pedestrians | Bicycles | Cars | Heavy | Bicycles per 100 cars |
 |---|---|---:|---:|---:|---:|---:|---:|
