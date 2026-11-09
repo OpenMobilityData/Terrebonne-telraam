@@ -170,7 +170,10 @@ def fig_shares(counter, title, modes, months, agg, period_label, period_total, o
             w = sh[m]
             if w <= 0: continue
             ax.barh(y, w, left=left, height=0.62 if lab != 'Whole period' else 0.78, color=col, alpha=alpha, edgecolor='#fcfcfb', linewidth=1.5)
-            if w >= 7: ax.text(left + w / 2, y, f'{w:.0f}%', ha='center', va='center', fontsize=8.2 if lab != 'Whole period' else 9, color='white', fontweight='bold' if lab == 'Whole period' else 'normal')
+            big = lab == 'Whole period'
+            if w >= 3.5: ax.text(left + w / 2, y, f'{w:.0f}%', ha='center', va='center', fontsize=(8.2 if w >= 7 else 7.2) if not big else 9, color='white', fontweight='bold' if big else 'normal')
+            elif m == 'bike':   # the subject of the chart is always labelled: above the segment when it is too narrow
+                ax.text(left + w / 2, y + (0.42 if big else 0.34), f'{w:.1f}%', ha='center', va='bottom', fontsize=7.2, color=col, fontweight='bold' if big else 'normal')
             left += w
         ax.text(101, y, f'{c["valid_days"]} d{"†" if thin else ""}', va='center', fontsize=8, color=MUTED)
     ax.set_yticks(ys); ax.set_yticklabels([r[0] for r in rows], fontsize=9.5, color=INK)
