@@ -80,7 +80,6 @@ def main(argv):
       + frame_fig('King Edward, winter 2024--25: who used the street', wdef, 'shares_west_winter-2024-25', '', 0.8) \
       + frame_fig('King Edward, winter 2025--26: who used the street', wdef, 'shares_west_winter-2025-26', '83 valid days: December has 15 and February none (outages). Heavy vehicles rose from about 10 a day to 35 a day this winter (44 a day in January); the cause is not examined here.', 0.8) \
       + frame_fig('King Edward, winter 2025--26: daily counts by mode', wdef, 'counts_west_winter-2025-26', '', 0.86) \
-      + frame_fig('Is cycling increasing at King Edward? Same months, year over year', wdef, 'yoy_west', 'Mean per day on the dates valid in both years. Late summer 2025 ran above 2024 (August, September); October, March and April are level year on year; November 2025 and January 2026 ran below. The record ends May 4, 2026: nothing after that date is in these figures.', 0.72) \
       + r'''\section{Draper, the eastern portion}
 ''' + frame_fig('Draper: bicycles and cars week by week', wdef, 'overview_east', 'Car volumes four times those at King Edward (the street is one-way eastbound here and carries through traffic to Girouard); bicycles at about three in ten cars in summer, one in fifteen in winter. The sensor stopped on January 24, 2026.', 0.9) \
       + frame_fig('Draper, non-winter 2025: who used the street', wdef, 'shares_east_non-winter-2025', '', 0.8) \
@@ -112,7 +111,7 @@ def main(argv):
     for f in sorted(os.listdir(figdir)):
         if not f.endswith('.png'): continue
         name = f[:-4]
-        if name in shown: continue
+        if name in shown or name.startswith('yoy_'): continue
         parts = name.split('_', 2)
         if len(parts) == 2:
             kind, counter = parts; title = f"{TITLES[counter]}: same months, year over year"
