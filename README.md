@@ -23,6 +23,7 @@ The hourly data can be pulled at any time from the Telraam API with `scripts/fet
 | `scripts/fetch_telraam.py` | Pull the hourly data from the Telraam API into `data/api/` (token in a config file outside git) |
 | `scripts/telraam_period_violins.py` | Year-over-year violin plots of daily bicycle counts for equivalent periods (whole winter, whole year, each month), comparing years on the calendar dates valid in every year shown; a period is drawn only when two years share at least 20 valid dates |
 | `figures/year-over-year/` | The figures (PNG and SVG), `telraam_{west,east}_{period}_en` |
+| `scripts/telraam_mode_shares.py [--winter=nov16\|dec1\|both]` → `derived/mode-shares/<def>/`, `figures/mode-shares/<def>/` | Mode shares (pedestrians, bicycles, cars, heavy vehicles) and mean daily counts by mode, by month, by ISO week and by period (winter / non-winter), for each sensor and, on its own panel, the borough's loop counter at Kensington (bicycles and motor vehicles, 24 h, from Terrebonne-access-requests); figures per period (`shares_…`, `counts_…`) and one weekly overview per counter (`overview_…`, bicycles and cars per valid day, winters shaded, coverage strip). Two winter definitions: `nov16` = November 16 – March 31 (default), `dec1` = December 1 – March 31 |
 | `scripts/telraam_summaries.py` → `derived/daily.csv`, `derived/speeds_by_season.csv` | Daily totals per sensor (hours, uptime, bikes, cars, valid flag) and V85 / share of cars over 30 and 40 km/h by season, for downstream builds (the poster in Terrebonne-open-sources reads these) |
 
 **Valid day** (for the figures): at least 8 reported hours and at least 6 hours of summed uptime.
@@ -35,6 +36,25 @@ The hourly data can be pulled at any time from the Telraam API with `scripts/fet
 | Draper | 120 of 121 | 53 (December and January 1–24 only) | 53 |
 
 There are only two winters, both after the protected lane was built (2024); no pre-lane winter exists in this record. Summer and February have one year of data only and are not drawn. Weather differs between the years compared; the 2025–26 winter had the second-lowest snow loading of eleven seasons.
+
+## Mode shares, winter and non-winter (November 9, 2026)
+
+`scripts/telraam_mode_shares.py` answers « who uses the street », by month and by period, from the daylight classes of each sensor. Shares are of everything the sensor classified in daylight over valid days (night traffic is an undifferentiated class and is left out), so they are **daylight shares**: cars also drive at night, bicycles much less, and a 24-hour share would give bicycles less. The loop counter at Kensington, drawn on its own panel, gives the 24-hour picture for bicycles against motor vehicles.
+
+With winter = November 16 – March 31 (`figures/mode-shares/nov16/`, tables in `derived/mode-shares/nov16/`):
+
+| Counter | Period | Valid days | Pedestrians | Bicycles | Cars | Heavy | Bicycles per 100 cars |
+|---|---|---:|---:|---:|---:|---:|---:|
+| King Edward (west) | Non-winter 2025 (Apr 1 – Nov 15) | 229 | 33 % | 33 % | 34 % | 1 % | 98 |
+| King Edward (west) | Winter 2024–25 | 134 | 32 % | 11 % | 55 % | 2 % | 20 |
+| King Edward (west) | Winter 2025–26 | 83 | 21 % | 11 % | 60 % | 8 % | 19 |
+| Draper (east) | Non-winter 2025 (Apr 1 – Nov 15) | 229 | 25 % | 17 % | 56 % | 2 % | 29 |
+| Draper (east) | Winter 2024–25 | 135 | 25 % | 5 % | 67 % | 4 % | 7 |
+| Draper (east) | Winter 2025–26 (to Jan 24) | 68 | 20 % | 5 % | 71 % | 4 % | 7 |
+| Kensington loop (24 h) | Non-winter 2025 (Jul 26 – Nov 15) | 113 | — | 30 % | 70 % (motor) | — | 44 |
+| Kensington loop (24 h) | Winter 2025–26 | 136 | — | 4 % | 96 % (motor) | — | 4 |
+
+At King Edward, in daylight, bicycles and cars run about level from May to September (bicycles per 100 cars by month, 2025: May 98, June 143, July 121, August 99, September 93; April 78, October 75, November 31); of 51 non-winter weeks with at least four valid days, 17 had more bicycles than cars and 24 were within 20 % either way. In winter the ratio falls to about 20 per 100 at King Edward and 7 per 100 at Draper. The western sensor's record ends May 4, 2026 (last export); extending it needs a Telraam API token (`fetch_telraam.py`) or a new dashboard export. Heavy vehicles at King Edward rose from about 10 a day to 35 a day in winter 2025–26 (44 a day in January 2026); the cause is not examined here.
 
 ## Data and licence
 

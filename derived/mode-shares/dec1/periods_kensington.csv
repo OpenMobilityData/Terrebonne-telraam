@@ -1,0 +1,4 @@
+period,label,first_day,last_day,days_in_window,days_reported,valid_days,hours_counted,bike_total,motor_total,bike_per_day,motor_per_day,bike_share_pct,motor_share_pct,bikes_per_100_motor
+non-winter-2025,Non-winter 2025 (April 1 to November 30),2025-07-26,2025-11-30,128,128,128,3072,67804,171577,529.7,1340.4,28.3,71.7,39.5
+non-winter-2026,Non-winter 2026 (April 1 to November 30),2026-04-01,2026-08-31,153,153,149,3576,83669,211662,561.5,1420.6,28.3,71.7,39.5
+winter-2025-26,Winter 2025–26 (December 1 to March 31),2025-12-01,2026-03-31,121,121,121,2904,4891,158666,40.4,1311.3,3.0,97.0,3.1

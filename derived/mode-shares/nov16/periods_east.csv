@@ -1,0 +1,5 @@
+period,label,first_day,last_day,days_in_window,days_reported,valid_days,hours_counted,pedestrian_total,bike_total,car_total,heavy_total,pedestrian_per_day,bike_per_day,car_per_day,heavy_per_day,pedestrian_share_pct,bike_share_pct,car_share_pct,heavy_share_pct,bikes_per_100_cars
+non-winter-2024,Non-winter 2024 (April 1 to November 15),2024-09-24,2024-11-15,53,53,52,1163,31022,16773,59997,3249,596.6,322.6,1153.8,62.5,27.9,15.1,54.0,2.9,28.0
+non-winter-2025,Non-winter 2025 (April 1 to November 15),2025-04-01,2025-11-15,229,229,229,5452,168061,111537,381404,14449,733.9,487.1,1665.5,63.1,24.9,16.5,56.5,2.1,29.2
+winter-2024-25,Winter 2024–25 (November 16 to March 31),2024-11-16,2025-03-31,136,136,135,3110,43840,8315,119877,6702,324.7,61.6,888.0,49.6,24.5,4.7,67.1,3.7,6.9
+winter-2025-26,Winter 2025–26 (November 16 to March 31),2025-11-16,2026-01-24,70,70,68,1501,12059,2767,42533,2357,177.3,40.7,625.5,34.7,20.2,4.6,71.2,3.9,6.5
