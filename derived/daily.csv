@@ -1,1064 +1,1401 @@
 date,segment,location,hours,uptime_hours,bikes,cars,valid
-2024-08-15,west,King Edward,1,0.75,39,33,0
-2024-08-16,west,King Edward,15,14.25,388,465,1
-2024-08-17,west,King Edward,15,14.25,269,326,1
-2024-08-18,west,King Edward,19,17.54,383,237,1
-2024-08-19,west,King Edward,24,24.0,111,338,1
-2024-08-20,west,King Edward,24,23.76,291,447,1
-2024-08-21,west,King Edward,24,23.73,58,390,1
-2024-08-22,west,King Edward,24,24.0,217,405,1
-2024-08-23,west,King Edward,24,23.58,419,427,1
-2024-08-24,west,King Edward,24,23.26,475,326,1
-2024-08-25,west,King Edward,20,18.01,300,173,1
-2024-08-26,west,King Edward,22,18.19,313,277,1
-2024-08-27,west,King Edward,24,21.86,446,398,1
-2024-08-28,west,King Edward,24,24.0,351,445,1
-2024-08-29,west,King Edward,24,23.71,230,362,1
-2024-08-30,west,King Edward,24,24.0,268,387,1
-2024-08-31,west,King Edward,24,24.0,83,246,1
-2024-09-01,west,King Edward,24,24.0,131,261,1
-2024-09-02,west,King Edward,24,24.0,279,254,1
-2024-09-03,west,King Edward,24,24.0,278,393,1
-2024-09-04,west,King Edward,24,23.75,264,484,1
-2024-09-05,west,King Edward,23,21.45,267,404,1
-2024-09-06,west,King Edward,24,23.69,454,432,1
-2024-09-07,west,King Edward,24,24.0,262,303,1
-2024-09-08,west,King Edward,24,23.35,225,258,1
-2024-09-09,west,King Edward,24,23.75,339,386,1
-2024-09-10,west,King Edward,24,23.83,483,385,1
-2024-09-11,west,King Edward,24,23.87,478,355,1
-2024-09-12,west,King Edward,24,22.18,546,365,1
-2024-09-13,west,King Edward,24,23.0,428,367,1
-2024-09-14,west,King Edward,24,22.73,366,301,1
-2024-09-15,west,King Edward,24,24.0,409,233,1
-2024-09-16,west,King Edward,24,23.74,393,366,1
-2024-09-17,west,King Edward,24,24.0,432,396,1
-2024-09-18,west,King Edward,24,24.0,528,493,1
-2024-09-19,west,King Edward,24,24.0,580,499,1
-2024-09-20,west,King Edward,24,23.95,446,488,1
-2024-09-21,west,King Edward,24,23.75,416,364,1
-2024-09-22,west,King Edward,24,24.0,415,351,1
-2024-09-23,west,King Edward,12,11.25,132,198,1
-2024-09-24,west,King Edward,8,7.2,189,134,1
-2024-09-25,west,King Edward,24,23.89,248,468,1
-2024-09-26,west,King Edward,24,24.0,272,432,1
-2024-09-27,west,King Edward,24,23.5,418,514,1
-2024-09-28,west,King Edward,24,23.7,277,380,1
-2024-09-29,west,King Edward,21,16.56,258,205,1
-2024-09-30,west,King Edward,24,24.0,426,500,1
-2024-10-01,west,King Edward,21,20.42,343,388,1
-2024-10-02,west,King Edward,24,24.0,267,467,1
-2024-10-03,west,King Edward,24,23.81,396,399,1
-2024-10-04,west,King Edward,24,24.0,492,457,1
-2024-10-05,west,King Edward,24,23.97,356,367,1
-2024-10-06,west,King Edward,24,24.0,358,310,1
-2024-10-07,west,King Edward,24,24.0,389,403,1
-2024-10-08,west,King Edward,24,24.0,298,411,1
-2024-10-09,west,King Edward,24,23.84,297,430,1
-2024-10-10,west,King Edward,24,23.65,273,456,1
-2024-10-11,west,King Edward,24,23.54,377,451,1
-2024-10-12,west,King Edward,24,23.48,150,359,1
-2024-10-13,west,King Edward,24,23.19,191,242,1
-2024-10-14,west,King Edward,24,22.73,35,221,1
-2024-10-15,west,King Edward,24,22.58,172,409,1
-2024-10-16,west,King Edward,24,22.83,210,450,1
+2024-08-15,west,King Edward,5,3.66,130,140,0
+2024-08-16,west,King Edward,15,14.24,388,465,1
+2024-08-17,west,King Edward,15,14.24,269,326,1
+2024-08-18,west,King Edward,19,17.53,383,236,1
+2024-08-19,west,King Edward,24,23.99,111,338,1
+2024-08-20,west,King Edward,24,23.75,291,446,1
+2024-08-21,west,King Edward,24,23.72,58,389,1
+2024-08-22,west,King Edward,24,23.99,217,405,1
+2024-08-23,west,King Edward,24,23.57,418,426,1
+2024-08-24,west,King Edward,24,23.24,474,325,1
+2024-08-25,west,King Edward,20,17.99,300,173,1
+2024-08-26,west,King Edward,22,18.17,313,276,1
+2024-08-27,west,King Edward,24,21.85,443,396,1
+2024-08-28,west,King Edward,24,23.99,350,445,1
+2024-08-29,west,King Edward,24,23.69,230,361,1
+2024-08-30,west,King Edward,24,23.99,268,387,1
+2024-08-31,west,King Edward,24,23.99,83,246,1
+2024-09-01,west,King Edward,24,23.99,131,261,1
+2024-09-02,west,King Edward,24,23.99,279,254,1
+2024-09-03,west,King Edward,24,23.99,278,393,1
+2024-09-04,west,King Edward,24,23.74,263,484,1
+2024-09-05,west,King Edward,23,21.44,266,402,1
+2024-09-06,west,King Edward,24,23.67,451,428,1
+2024-09-07,west,King Edward,24,23.99,260,302,1
+2024-09-08,west,King Edward,24,23.34,224,258,1
+2024-09-09,west,King Edward,24,23.74,339,385,1
+2024-09-10,west,King Edward,24,23.82,483,385,1
+2024-09-11,west,King Edward,24,23.86,478,355,1
+2024-09-12,west,King Edward,24,22.17,543,363,1
+2024-09-13,west,King Edward,24,22.98,427,366,1
+2024-09-14,west,King Edward,24,22.72,365,300,1
+2024-09-15,west,King Edward,24,23.99,409,233,1
+2024-09-16,west,King Edward,24,23.73,391,366,1
+2024-09-17,west,King Edward,24,23.99,432,396,1
+2024-09-18,west,King Edward,24,23.99,528,493,1
+2024-09-19,west,King Edward,24,23.99,580,499,1
+2024-09-20,west,King Edward,24,23.94,446,488,1
+2024-09-21,west,King Edward,24,23.73,416,364,1
+2024-09-22,west,King Edward,24,23.99,415,351,1
+2024-09-23,west,King Edward,12,11.24,132,198,1
+2024-09-24,west,King Edward,8,7.19,189,133,1
+2024-09-25,west,King Edward,24,23.88,248,468,1
+2024-09-26,west,King Edward,24,23.99,272,432,1
+2024-09-27,west,King Edward,24,23.48,418,514,1
+2024-09-28,west,King Edward,24,23.69,277,380,1
+2024-09-29,west,King Edward,21,16.56,256,202,1
+2024-09-30,west,King Edward,24,23.99,426,500,1
+2024-10-01,west,King Edward,21,20.41,341,387,1
+2024-10-02,west,King Edward,24,23.99,267,467,1
+2024-10-03,west,King Edward,24,23.79,396,399,1
+2024-10-04,west,King Edward,24,23.99,492,457,1
+2024-10-05,west,King Edward,24,23.96,356,367,1
+2024-10-06,west,King Edward,24,23.99,358,310,1
+2024-10-07,west,King Edward,24,23.99,388,403,1
+2024-10-08,west,King Edward,24,23.99,298,411,1
+2024-10-09,west,King Edward,24,23.82,297,430,1
+2024-10-10,west,King Edward,24,23.64,273,456,1
+2024-10-11,west,King Edward,24,23.53,377,451,1
+2024-10-12,west,King Edward,24,23.47,150,359,1
+2024-10-13,west,King Edward,24,23.17,191,242,1
+2024-10-14,west,King Edward,24,22.73,34,220,1
+2024-10-15,west,King Edward,24,22.57,172,409,1
+2024-10-16,west,King Edward,24,22.82,210,450,1
 2024-10-17,west,King Edward,24,22.82,269,396,1
-2024-10-18,west,King Edward,24,23.2,227,469,1
-2024-10-19,west,King Edward,24,23.84,246,351,1
-2024-10-20,west,King Edward,14,13.9,130,145,1
-2024-10-21,west,King Edward,14,13.81,280,303,1
-2024-10-22,west,King Edward,22,20.83,447,449,1
-2024-10-23,west,King Edward,24,24.0,365,404,1
-2024-10-24,west,King Edward,24,23.59,248,466,1
-2024-10-25,west,King Edward,24,23.24,232,400,1
-2024-10-26,west,King Edward,23,21.26,148,398,1
+2024-10-18,west,King Edward,24,23.19,227,469,1
+2024-10-19,west,King Edward,24,23.82,246,351,1
+2024-10-20,west,King Edward,14,13.89,130,145,1
+2024-10-21,west,King Edward,14,13.8,280,303,1
+2024-10-22,west,King Edward,22,20.82,446,448,1
+2024-10-23,west,King Edward,24,23.99,364,404,1
+2024-10-24,west,King Edward,24,23.57,248,466,1
+2024-10-25,west,King Edward,24,23.23,231,399,1
+2024-10-26,west,King Edward,23,21.25,148,398,1
 2024-10-27,west,King Edward,24,22.34,106,297,1
-2024-10-28,west,King Edward,24,21.48,138,486,1
-2024-10-29,west,King Edward,24,22.77,285,409,1
-2024-10-30,west,King Edward,24,23.93,244,430,1
-2024-10-31,west,King Edward,24,24.0,313,465,1
-2024-11-01,west,King Edward,24,23.69,180,419,1
-2024-11-02,west,King Edward,24,21.85,100,311,1
-2024-11-03,west,King Edward,25,22.23,125,332,1
-2024-11-04,west,King Edward,24,21.92,134,358,1
-2024-11-05,west,King Edward,24,23.49,143,354,1
-2024-11-06,west,King Edward,24,24.0,215,373,1
-2024-11-07,west,King Edward,24,23.3,145,347,1
-2024-11-08,west,King Edward,24,22.98,109,324,1
+2024-10-28,west,King Edward,24,21.47,138,486,1
+2024-10-29,west,King Edward,24,22.76,285,409,1
+2024-10-30,west,King Edward,24,23.91,244,430,1
+2024-10-31,west,King Edward,24,23.99,313,465,1
+2024-11-01,west,King Edward,24,23.67,180,419,1
+2024-11-02,west,King Edward,24,21.86,99,310,1
+2024-11-03,west,King Edward,24,21.29,124,331,1
+2024-11-04,west,King Edward,24,21.91,134,358,1
+2024-11-05,west,King Edward,24,23.47,142,353,1
+2024-11-06,west,King Edward,24,23.99,215,373,1
+2024-11-07,west,King Edward,24,23.28,145,347,1
+2024-11-08,west,King Edward,24,22.97,109,323,1
 2024-11-09,west,King Edward,24,22.77,148,318,1
-2024-11-10,west,King Edward,24,22.37,132,257,1
-2024-11-11,west,King Edward,24,23.2,72,299,1
-2024-11-12,west,King Edward,24,22.75,162,322,1
-2024-11-13,west,King Edward,24,19.29,125,335,1
-2024-11-14,west,King Edward,24,19.3,225,160,1
-2024-11-15,west,King Edward,24,21.39,113,303,1
-2024-11-16,west,King Edward,24,22.38,109,280,1
-2024-11-17,west,King Edward,24,22.05,88,247,1
-2024-11-18,west,King Edward,24,22.91,104,336,1
-2024-11-19,west,King Edward,24,22.19,158,320,1
+2024-11-10,west,King Edward,24,22.36,132,256,1
+2024-11-11,west,King Edward,24,23.19,72,299,1
+2024-11-12,west,King Edward,24,22.74,162,322,1
+2024-11-13,west,King Edward,24,19.3,125,335,1
+2024-11-14,west,King Edward,24,19.28,224,159,1
+2024-11-15,west,King Edward,24,21.37,113,303,1
+2024-11-16,west,King Edward,24,22.38,109,279,1
+2024-11-17,west,King Edward,24,22.04,88,247,1
+2024-11-18,west,King Edward,24,22.89,103,336,1
+2024-11-19,west,King Edward,24,22.18,158,320,1
 2024-11-20,west,King Edward,24,23.04,112,387,1
-2024-11-21,west,King Edward,24,22.62,77,345,1
-2024-11-22,west,King Edward,24,22.46,72,289,1
-2024-11-23,west,King Edward,24,21.56,66,244,1
-2024-11-24,west,King Edward,24,21.7,47,229,1
-2024-11-25,west,King Edward,24,20.47,97,330,1
-2024-11-26,west,King Edward,24,21.41,14,225,1
-2024-11-27,west,King Edward,24,20.14,98,316,1
-2024-11-28,west,King Edward,24,21.28,32,325,1
-2024-11-29,west,King Edward,24,18.97,83,329,1
+2024-11-21,west,King Edward,24,22.61,77,345,1
+2024-11-22,west,King Edward,24,22.45,71,287,1
+2024-11-23,west,King Edward,24,21.55,66,244,1
+2024-11-24,west,King Edward,24,21.71,46,229,1
+2024-11-25,west,King Edward,24,20.44,96,330,1
+2024-11-26,west,King Edward,24,21.4,13,223,1
+2024-11-27,west,King Edward,24,20.13,98,316,1
+2024-11-28,west,King Edward,24,21.26,32,325,1
+2024-11-29,west,King Edward,24,18.97,83,328,1
 2024-11-30,west,King Edward,24,19.68,42,219,1
-2024-12-01,west,King Edward,24,19.7,38,218,1
-2024-12-02,west,King Edward,24,17.9,50,296,1
-2024-12-03,west,King Edward,24,19.25,49,271,1
-2024-12-04,west,King Edward,24,18.2,52,292,1
-2024-12-05,west,King Edward,24,17.63,13,308,1
-2024-12-06,west,King Edward,24,13.47,22,409,1
-2024-12-07,west,King Edward,24,14.19,10,234,1
-2024-12-08,west,King Edward,24,19.77,4,122,1
-2024-12-09,west,King Edward,24,13.2,21,147,1
-2024-12-10,west,King Edward,24,20.49,7,94,1
-2024-12-11,west,King Edward,24,21.83,28,143,1
-2024-12-12,west,King Edward,24,18.51,54,94,1
-2024-12-13,west,King Edward,24,11.92,49,134,1
-2024-12-14,west,King Edward,24,10.23,15,108,1
-2024-12-15,west,King Edward,24,11.65,28,103,1
-2024-12-16,west,King Edward,24,18.57,19,116,1
-2024-12-17,west,King Edward,24,21.58,53,158,1
-2024-12-18,west,King Edward,24,19.26,48,235,1
-2024-12-19,west,King Edward,24,15.65,38,230,1
-2024-12-20,west,King Edward,24,10.39,23,239,1
-2024-12-21,west,King Edward,24,7.52,14,144,1
-2024-12-22,west,King Edward,23,6.04,7,124,1
-2024-12-23,west,King Edward,24,6.87,13,240,1
-2024-12-24,west,King Edward,24,12.52,5,179,1
-2024-12-25,west,King Edward,24,8.85,4,115,1
-2024-12-26,west,King Edward,24,9.2,5,115,1
-2024-12-27,west,King Edward,24,10.58,2,179,1
-2024-12-28,west,King Edward,24,13.34,11,215,1
-2024-12-29,west,King Edward,24,21.2,22,126,1
+2024-12-01,west,King Edward,24,19.7,38,216,1
+2024-12-02,west,King Edward,24,17.89,50,294,1
+2024-12-03,west,King Edward,24,19.25,49,269,1
+2024-12-04,west,King Edward,24,18.17,51,289,1
+2024-12-05,west,King Edward,24,17.62,13,304,1
+2024-12-06,west,King Edward,24,13.46,21,406,1
+2024-12-07,west,King Edward,24,14.2,9,229,1
+2024-12-08,west,King Edward,24,19.76,4,122,1
+2024-12-09,west,King Edward,24,13.21,18,142,1
+2024-12-10,west,King Edward,24,20.47,7,93,1
+2024-12-11,west,King Edward,24,21.82,28,143,1
+2024-12-12,west,King Edward,24,18.5,53,93,1
+2024-12-13,west,King Edward,24,11.89,47,132,1
+2024-12-14,west,King Edward,24,10.22,14,107,1
+2024-12-15,west,King Edward,24,11.65,26,100,1
+2024-12-16,west,King Edward,24,18.55,19,116,1
+2024-12-17,west,King Edward,24,21.58,53,157,1
+2024-12-18,west,King Edward,24,19.25,46,235,1
+2024-12-19,west,King Edward,24,15.64,38,228,1
+2024-12-20,west,King Edward,24,10.41,22,231,1
+2024-12-21,west,King Edward,24,7.52,14,141,1
+2024-12-22,west,King Edward,23,6.05,6,122,1
+2024-12-23,west,King Edward,24,6.84,12,237,1
+2024-12-24,west,King Edward,24,12.52,5,175,1
+2024-12-25,west,King Edward,24,8.84,4,114,1
+2024-12-26,west,King Edward,24,9.2,4,111,1
+2024-12-27,west,King Edward,24,10.58,2,174,1
+2024-12-28,west,King Edward,24,13.32,10,212,1
+2024-12-29,west,King Edward,24,21.19,22,126,1
 2024-12-30,west,King Edward,24,22.13,59,193,1
-2024-12-31,west,King Edward,24,21.66,65,225,1
-2025-01-01,west,King Edward,24,20.29,10,74,1
-2025-01-02,west,King Edward,24,17.81,45,180,1
-2025-01-03,west,King Edward,24,12.75,40,213,1
-2025-01-04,west,King Edward,24,7.53,7,109,1
-2025-01-05,west,King Edward,24,5.16,1,156,0
-2025-01-06,west,King Edward,24,4.47,1,133,0
-2025-01-07,west,King Edward,24,16.07,11,247,1
-2025-01-08,west,King Edward,24,20.84,10,232,1
-2025-01-09,west,King Edward,24,21.75,20,273,1
-2025-01-10,west,King Edward,24,22.42,42,264,1
-2025-01-11,west,King Edward,24,23.05,9,187,1
-2025-01-12,west,King Edward,24,22.84,33,172,1
-2025-01-13,west,King Edward,24,23.32,23,275,1
-2025-01-14,west,King Edward,24,23.26,13,302,1
-2025-01-15,west,King Edward,24,22.06,30,325,1
-2025-01-16,west,King Edward,24,22.77,37,296,1
-2025-01-17,west,King Edward,24,23.21,30,280,1
-2025-01-18,west,King Edward,24,23.62,51,220,1
-2025-01-19,west,King Edward,24,22.47,23,168,1
-2025-01-20,west,King Edward,24,20.41,24,263,1
-2025-01-21,west,King Edward,24,20.18,23,269,1
-2025-01-22,west,King Edward,24,20.52,16,268,1
-2025-01-23,west,King Edward,24,22.0,13,289,1
-2025-01-24,west,King Edward,24,21.62,13,243,1
-2025-01-25,west,King Edward,24,21.57,28,220,1
-2025-01-26,west,King Edward,24,23.38,3,212,1
-2025-01-27,west,King Edward,24,23.47,45,255,1
-2025-01-28,west,King Edward,24,22.04,11,264,1
-2025-01-29,west,King Edward,24,22.06,21,269,1
-2025-01-30,west,King Edward,24,20.29,19,322,1
-2025-01-31,west,King Edward,24,22.7,20,300,1
-2025-02-01,west,King Edward,24,20.57,3,189,1
-2025-02-02,west,King Edward,24,19.79,6,177,1
-2025-02-03,west,King Edward,24,22.96,24,251,1
-2025-02-04,west,King Edward,24,22.67,26,303,1
-2025-02-05,west,King Edward,24,19.74,12,272,1
-2025-02-06,west,King Edward,24,21.6,20,290,1
-2025-02-07,west,King Edward,24,23.21,6,283,1
+2024-12-31,west,King Edward,24,21.65,65,225,1
+2025-01-01,west,King Edward,24,20.26,10,74,1
+2025-01-02,west,King Edward,24,17.81,43,177,1
+2025-01-03,west,King Edward,24,12.76,37,206,1
+2025-01-04,west,King Edward,24,7.51,6,107,1
+2025-01-05,west,King Edward,24,5.14,1,152,0
+2025-01-06,west,King Edward,24,4.44,1,126,0
+2025-01-07,west,King Edward,24,16.05,11,247,1
+2025-01-08,west,King Edward,24,20.83,9,229,1
+2025-01-09,west,King Edward,24,21.75,20,269,1
+2025-01-10,west,King Edward,24,22.43,41,261,1
+2025-01-11,west,King Edward,24,23.03,9,185,1
+2025-01-12,west,King Edward,24,22.83,33,170,1
+2025-01-13,west,King Edward,24,23.31,23,273,1
+2025-01-14,west,King Edward,24,23.23,13,300,1
+2025-01-15,west,King Edward,24,22.04,29,322,1
+2025-01-16,west,King Edward,24,22.78,37,293,1
+2025-01-17,west,King Edward,24,23.21,30,279,1
+2025-01-18,west,King Edward,24,23.61,51,220,1
+2025-01-19,west,King Edward,24,22.48,23,165,1
+2025-01-20,west,King Edward,24,20.39,23,262,1
+2025-01-21,west,King Edward,24,20.14,23,265,1
+2025-01-22,west,King Edward,24,20.52,15,263,1
+2025-01-23,west,King Edward,24,22.01,13,285,1
+2025-01-24,west,King Edward,24,21.63,13,241,1
+2025-01-25,west,King Edward,24,21.55,28,218,1
+2025-01-26,west,King Edward,24,23.38,3,211,1
+2025-01-27,west,King Edward,24,23.48,45,254,1
+2025-01-28,west,King Edward,24,22.04,11,258,1
+2025-01-29,west,King Edward,24,22.06,21,266,1
+2025-01-30,west,King Edward,24,20.29,19,318,1
+2025-01-31,west,King Edward,24,22.68,20,299,1
+2025-02-01,west,King Edward,24,20.57,3,186,1
+2025-02-02,west,King Edward,24,19.77,6,175,1
+2025-02-03,west,King Edward,24,22.98,24,248,1
+2025-02-04,west,King Edward,24,22.67,26,301,1
+2025-02-05,west,King Edward,24,19.74,12,266,1
+2025-02-06,west,King Edward,24,21.57,20,286,1
+2025-02-07,west,King Edward,24,23.2,6,283,1
 2025-02-08,west,King Edward,24,22.82,7,226,1
-2025-02-09,west,King Edward,24,23.38,22,292,1
-2025-02-10,west,King Edward,24,22.6,35,371,1
-2025-02-11,west,King Edward,24,22.75,34,287,1
-2025-02-12,west,King Edward,24,21.45,47,304,1
-2025-02-13,west,King Edward,24,22.82,9,141,1
-2025-02-14,west,King Edward,24,22.25,13,277,1
-2025-02-15,west,King Edward,24,22.26,10,209,1
-2025-02-16,west,King Edward,24,22.23,9,97,1
-2025-02-17,west,King Edward,24,21.92,18,148,1
-2025-02-18,west,King Edward,24,20.93,9,230,1
-2025-02-19,west,King Edward,24,20.83,17,307,1
-2025-02-20,west,King Edward,24,21.7,6,341,1
-2025-02-21,west,King Edward,24,22.3,4,283,1
-2025-02-22,west,King Edward,24,22.58,3,200,1
-2025-02-23,west,King Edward,24,23.46,67,229,1
-2025-02-24,west,King Edward,24,23.75,107,299,1
+2025-02-09,west,King Edward,24,23.38,22,290,1
+2025-02-10,west,King Edward,24,22.62,35,368,1
+2025-02-11,west,King Edward,24,22.74,34,283,1
+2025-02-12,west,King Edward,24,21.45,45,299,1
+2025-02-13,west,King Edward,24,22.8,9,140,1
+2025-02-14,west,King Edward,24,22.23,13,273,1
+2025-02-15,west,King Edward,24,22.25,10,205,1
+2025-02-16,west,King Edward,24,22.24,9,97,1
+2025-02-17,west,King Edward,24,21.91,18,144,1
+2025-02-18,west,King Edward,24,20.91,9,229,1
+2025-02-19,west,King Edward,24,20.82,17,305,1
+2025-02-20,west,King Edward,24,21.68,6,337,1
+2025-02-21,west,King Edward,24,22.3,4,281,1
+2025-02-22,west,King Edward,24,22.57,3,199,1
+2025-02-23,west,King Edward,24,23.45,67,229,1
+2025-02-24,west,King Edward,24,23.74,107,299,1
 2025-02-25,west,King Edward,24,23.87,81,282,1
 2025-02-26,west,King Edward,24,23.56,48,299,1
-2025-02-27,west,King Edward,24,23.47,15,340,1
-2025-02-28,west,King Edward,24,23.23,12,286,1
+2025-02-27,west,King Edward,24,23.46,15,339,1
+2025-02-28,west,King Edward,24,23.23,12,284,1
 2025-03-01,west,King Edward,24,22.77,14,206,1
-2025-03-02,west,King Edward,24,20.22,1,129,1
-2025-03-03,west,King Edward,24,21.59,6,205,1
-2025-03-04,west,King Edward,24,23.56,10,230,1
-2025-03-05,west,King Edward,24,23.88,20,223,1
-2025-03-06,west,King Edward,24,23.75,61,256,1
-2025-03-07,west,King Edward,24,23.35,30,250,1
-2025-03-08,west,King Edward,24,23.3,24,218,1
-2025-03-09,west,King Edward,23,22.51,46,200,1
-2025-03-10,west,King Edward,24,23.33,54,282,1
-2025-03-11,west,King Edward,24,23.79,88,311,1
-2025-03-12,west,King Edward,24,23.45,95,348,1
+2025-03-02,west,King Edward,24,20.22,1,124,1
+2025-03-03,west,King Edward,24,21.58,6,204,1
+2025-03-04,west,King Edward,24,23.56,10,229,1
+2025-03-05,west,King Edward,24,23.86,20,223,1
+2025-03-06,west,King Edward,24,23.74,61,256,1
+2025-03-07,west,King Edward,24,23.32,30,250,1
+2025-03-08,west,King Edward,24,23.29,24,218,1
+2025-03-09,west,King Edward,23,22.49,46,200,1
+2025-03-10,west,King Edward,24,23.32,54,282,1
+2025-03-11,west,King Edward,24,23.78,88,311,1
+2025-03-12,west,King Edward,24,23.44,95,348,1
 2025-03-13,west,King Edward,24,23.39,153,349,1
-2025-03-14,west,King Edward,24,23.82,137,370,1
-2025-03-15,west,King Edward,24,23.97,183,263,1
-2025-03-16,west,King Edward,24,23.97,100,265,1
-2025-03-17,west,King Edward,24,23.61,141,348,1
-2025-03-18,west,King Edward,24,23.76,200,391,1
-2025-03-19,west,King Edward,24,23.64,267,350,1
-2025-03-20,west,King Edward,24,23.98,289,389,1
-2025-03-21,west,King Edward,24,23.84,193,390,1
-2025-03-22,west,King Edward,24,23.7,159,256,1
-2025-03-23,west,King Edward,24,23.35,103,241,1
+2025-03-14,west,King Edward,24,23.81,137,370,1
+2025-03-15,west,King Edward,24,23.95,183,263,1
+2025-03-16,west,King Edward,24,23.95,100,265,1
+2025-03-17,west,King Edward,24,23.6,140,347,1
+2025-03-18,west,King Edward,24,23.75,200,391,1
+2025-03-19,west,King Edward,24,23.63,267,350,1
+2025-03-20,west,King Edward,24,23.97,289,389,1
+2025-03-21,west,King Edward,24,23.82,193,390,1
+2025-03-22,west,King Edward,24,23.69,159,256,1
+2025-03-23,west,King Edward,24,23.33,103,241,1
 2025-03-24,west,King Edward,22,21.63,56,322,1
-2025-03-25,west,King Edward,24,23.75,95,388,1
-2025-03-26,west,King Edward,24,23.85,232,361,1
-2025-03-27,west,King Edward,24,23.87,206,299,1
-2025-03-28,west,King Edward,24,23.78,183,295,1
-2025-03-29,west,King Edward,24,23.78,34,240,1
-2025-03-30,west,King Edward,24,23.79,14,197,1
-2025-03-31,west,King Edward,24,23.93,64,308,1
-2025-04-01,west,King Edward,24,23.72,190,208,1
-2025-04-02,west,King Edward,24,23.51,204,193,1
-2025-04-03,west,King Edward,24,23.88,207,255,1
-2025-04-04,west,King Edward,24,23.58,348,285,1
-2025-04-05,west,King Edward,24,23.94,78,238,1
-2025-04-06,west,King Edward,24,23.81,199,227,1
-2025-04-07,west,King Edward,24,23.92,283,345,1
+2025-03-25,west,King Edward,24,23.74,95,388,1
+2025-03-26,west,King Edward,24,23.84,232,361,1
+2025-03-27,west,King Edward,24,23.86,206,299,1
+2025-03-28,west,King Edward,24,23.77,183,295,1
+2025-03-29,west,King Edward,24,23.76,34,240,1
+2025-03-30,west,King Edward,24,23.78,14,197,1
+2025-03-31,west,King Edward,24,23.92,64,308,1
+2025-04-01,west,King Edward,24,23.45,194,204,1
+2025-04-02,west,King Edward,24,23.52,204,193,1
+2025-04-03,west,King Edward,24,23.87,207,255,1
+2025-04-04,west,King Edward,24,23.57,348,285,1
+2025-04-05,west,King Edward,24,23.92,78,238,1
+2025-04-06,west,King Edward,24,23.8,199,227,1
+2025-04-07,west,King Edward,24,23.89,283,345,1
 2025-04-08,west,King Edward,24,23.77,87,290,1
-2025-04-09,west,King Edward,24,23.32,200,358,1
-2025-04-10,west,King Edward,24,23.73,211,352,1
-2025-04-11,west,King Edward,24,23.9,165,361,1
-2025-04-12,west,King Edward,24,23.93,203,292,1
-2025-04-13,west,King Edward,24,23.93,431,251,1
-2025-04-14,west,King Edward,24,23.91,392,350,1
-2025-04-15,west,King Edward,24,23.95,276,375,1
-2025-04-16,west,King Edward,24,23.88,103,410,1
-2025-04-17,west,King Edward,24,23.86,292,402,1
-2025-04-18,west,King Edward,24,23.93,233,296,1
-2025-04-19,west,King Edward,24,23.98,176,283,1
-2025-04-20,west,King Edward,24,23.95,254,245,1
-2025-04-21,west,King Edward,24,23.94,265,284,1
-2025-04-22,west,King Edward,24,23.95,230,379,1
-2025-04-23,west,King Edward,24,23.98,362,391,1
-2025-04-24,west,King Edward,24,23.96,384,421,1
-2025-04-25,west,King Edward,24,23.97,348,383,1
-2025-04-26,west,King Edward,24,24.0,64,318,1
-2025-04-27,west,King Edward,24,23.94,209,268,1
-2025-04-28,west,King Edward,24,23.97,578,365,1
-2025-04-29,west,King Edward,24,24.0,312,393,1
-2025-04-30,west,King Edward,24,23.95,450,737,1
-2025-05-01,west,King Edward,24,23.97,382,515,1
-2025-05-02,west,King Edward,24,24.0,343,405,1
-2025-05-03,west,King Edward,24,23.99,335,325,1
-2025-05-04,west,King Edward,24,23.97,579,304,1
-2025-05-05,west,King Edward,24,24.0,589,491,1
-2025-05-06,west,King Edward,24,24.0,337,488,1
-2025-05-07,west,King Edward,24,23.39,479,468,1
-2025-05-08,west,King Edward,24,23.99,394,506,1
-2025-05-09,west,King Edward,24,23.98,140,465,1
-2025-05-10,west,King Edward,24,23.93,304,361,1
-2025-05-11,west,King Edward,24,23.99,562,348,1
-2025-05-12,west,King Edward,24,24.0,516,452,1
-2025-05-13,west,King Edward,24,23.99,713,446,1
-2025-05-14,west,King Edward,24,24.0,627,470,1
-2025-05-15,west,King Edward,24,24.0,681,553,1
-2025-05-16,west,King Edward,24,24.0,424,453,1
-2025-05-17,west,King Edward,24,24.0,176,319,1
-2025-05-18,west,King Edward,24,23.98,210,355,1
-2025-05-19,west,King Edward,24,24.0,284,328,1
-2025-05-20,west,King Edward,23,22.99,429,476,1
-2025-05-21,west,King Edward,24,23.87,455,462,1
-2025-05-22,west,King Edward,24,23.99,268,469,1
-2025-05-23,west,King Edward,24,23.92,195,493,1
-2025-05-24,west,King Edward,24,23.95,86,317,1
-2025-05-25,west,King Edward,24,23.95,459,311,1
-2025-05-26,west,King Edward,24,24.0,501,497,1
-2025-05-27,west,King Edward,24,23.99,671,481,1
-2025-05-28,west,King Edward,24,24.0,608,522,1
-2025-05-29,west,King Edward,24,24.0,533,453,1
-2025-05-30,west,King Edward,24,24.0,630,524,1
-2025-05-31,west,King Edward,24,24.0,152,320,1
-2025-06-01,west,King Edward,24,24.0,231,306,1
-2025-06-02,west,King Edward,24,24.0,500,503,1
-2025-06-03,west,King Edward,24,24.0,724,461,1
-2025-06-04,west,King Edward,24,24.0,777,460,1
-2025-06-05,west,King Edward,24,24.0,710,478,1
-2025-06-06,west,King Edward,24,24.0,623,391,1
-2025-06-07,west,King Edward,24,24.0,461,363,1
-2025-06-08,west,King Edward,24,23.41,656,312,1
-2025-06-09,west,King Edward,24,24.0,565,401,1
-2025-06-10,west,King Edward,24,23.8,546,410,1
-2025-06-11,west,King Edward,24,24.0,864,451,1
-2025-06-12,west,King Edward,24,23.99,826,437,1
-2025-06-13,west,King Edward,24,23.98,620,418,1
-2025-06-14,west,King Edward,24,24.0,486,354,1
-2025-06-15,west,King Edward,24,23.99,498,301,1
-2025-06-16,west,King Edward,24,24.0,753,454,1
-2025-06-17,west,King Edward,24,24.0,702,364,1
-2025-06-18,west,King Edward,24,23.64,665,419,1
-2025-06-19,west,King Edward,24,24.0,433,431,1
-2025-06-20,west,King Edward,24,24.0,460,432,1
-2025-06-21,west,King Edward,24,24.0,458,328,1
-2025-06-22,west,King Edward,24,24.0,461,311,1
-2025-06-23,west,King Edward,24,24.0,352,391,1
-2025-06-24,west,King Edward,24,24.0,319,252,1
-2025-06-25,west,King Edward,24,24.0,622,389,1
-2025-06-26,west,King Edward,24,24.0,632,410,1
-2025-06-27,west,King Edward,24,24.0,506,445,1
-2025-06-28,west,King Edward,24,24.0,250,306,1
-2025-06-29,west,King Edward,24,24.0,473,279,1
-2025-06-30,west,King Edward,24,24.0,509,397,1
-2025-07-01,west,King Edward,24,24.0,367,281,1
-2025-07-02,west,King Edward,24,24.0,582,386,1
-2025-07-03,west,King Edward,24,24.0,551,370,1
-2025-07-04,west,King Edward,24,24.0,598,388,1
-2025-07-05,west,King Edward,24,24.0,504,315,1
-2025-07-06,west,King Edward,24,24.0,397,276,1
-2025-07-07,west,King Edward,24,23.41,347,353,1
-2025-07-08,west,King Edward,24,24.0,717,393,1
-2025-07-09,west,King Edward,24,24.0,687,403,1
-2025-07-10,west,King Edward,24,24.0,571,429,1
-2025-07-11,west,King Edward,24,24.0,463,379,1
-2025-07-12,west,King Edward,24,23.66,426,321,1
-2025-07-13,west,King Edward,24,24.0,298,258,1
-2025-07-14,west,King Edward,24,23.41,489,367,1
-2025-07-15,west,King Edward,24,24.0,572,370,1
-2025-07-16,west,King Edward,24,24.0,519,418,1
-2025-07-17,west,King Edward,24,24.0,304,352,1
-2025-07-18,west,King Edward,24,24.0,454,413,1
-2025-07-19,west,King Edward,24,24.0,468,285,1
-2025-07-20,west,King Edward,24,24.0,281,288,1
-2025-07-21,west,King Edward,24,24.0,322,340,1
-2025-07-22,west,King Edward,23,22.06,332,372,1
-2025-07-23,west,King Edward,24,23.75,272,352,1
-2025-07-24,west,King Edward,24,24.0,323,368,1
-2025-07-25,west,King Edward,24,24.0,277,385,1
-2025-07-26,west,King Edward,24,24.0,224,325,1
-2025-07-27,west,King Edward,24,24.0,280,262,1
-2025-07-28,west,King Edward,24,24.0,289,349,1
-2025-07-29,west,King Edward,24,24.0,366,359,1
-2025-07-30,west,King Edward,24,24.0,403,334,1
-2025-07-31,west,King Edward,24,24.0,509,384,1
-2025-08-01,west,King Edward,24,24.0,271,357,1
-2025-08-02,west,King Edward,24,23.99,301,307,1
-2025-08-03,west,King Edward,24,24.0,316,290,1
-2025-08-04,west,King Edward,24,24.0,380,384,1
-2025-08-05,west,King Edward,24,24.0,396,357,1
-2025-08-06,west,King Edward,24,24.0,293,392,1
-2025-08-07,west,King Edward,24,24.0,376,402,1
-2025-08-08,west,King Edward,24,23.41,429,416,1
-2025-08-09,west,King Edward,24,24.0,294,306,1
-2025-08-10,west,King Edward,24,24.0,320,284,1
-2025-08-11,west,King Edward,21,17.95,333,428,1
-2025-08-12,west,King Edward,24,24.0,314,389,1
-2025-08-13,west,King Edward,24,23.98,437,460,1
-2025-08-14,west,King Edward,24,24.0,549,449,1
-2025-08-15,west,King Edward,24,24.0,328,388,1
-2025-08-16,west,King Edward,24,24.0,330,300,1
-2025-08-17,west,King Edward,24,24.0,227,262,1
-2025-08-18,west,King Edward,24,23.98,367,359,1
-2025-08-19,west,King Edward,24,24.0,559,357,1
-2025-08-20,west,King Edward,24,24.0,537,398,1
-2025-08-21,west,King Edward,24,24.0,473,409,1
-2025-08-22,west,King Edward,24,24.0,365,423,1
-2025-08-23,west,King Edward,24,24.0,410,303,1
-2025-08-24,west,King Edward,24,24.0,399,288,1
-2025-08-25,west,King Edward,24,24.0,471,525,1
-2025-08-26,west,King Edward,24,24.0,461,449,1
-2025-08-27,west,King Edward,24,24.0,537,499,1
-2025-08-28,west,King Edward,24,24.0,360,465,1
-2025-08-29,west,King Edward,24,24.0,350,471,1
-2025-08-30,west,King Edward,24,24.0,171,320,1
-2025-08-31,west,King Edward,24,24.0,274,321,1
-2025-09-01,west,King Edward,24,24.0,457,247,1
-2025-09-02,west,King Edward,24,24.0,526,582,1
-2025-09-03,west,King Edward,24,24.0,506,666,1
-2025-09-04,west,King Edward,16,15.25,212,487,1
-2025-09-05,west,King Edward,12,11.4,329,330,1
-2025-09-06,west,King Edward,24,24.0,172,301,1
-2025-09-07,west,King Edward,24,24.0,364,318,1
-2025-09-08,west,King Edward,24,24.0,370,624,1
-2025-09-09,west,King Edward,24,24.0,542,696,1
-2025-09-10,west,King Edward,24,24.0,487,606,1
-2025-09-11,west,King Edward,24,24.0,593,462,1
-2025-09-12,west,King Edward,24,24.0,369,376,1
-2025-09-13,west,King Edward,24,24.0,380,356,1
-2025-09-14,west,King Edward,24,24.0,350,346,1
-2025-09-15,west,King Edward,24,24.0,410,387,1
-2025-09-16,west,King Edward,24,24.0,404,412,1
-2025-09-17,west,King Edward,24,24.0,613,423,1
-2025-09-18,west,King Edward,24,24.0,486,395,1
-2025-09-19,west,King Edward,24,24.0,322,423,1
-2025-09-20,west,King Edward,24,23.96,207,378,1
-2025-09-21,west,King Edward,24,23.96,260,357,1
-2025-09-22,west,King Edward,24,24.0,508,420,1
-2025-09-23,west,King Edward,24,24.0,389,396,1
-2025-09-24,west,King Edward,24,24.0,589,408,1
-2025-09-25,west,King Edward,24,24.0,205,412,1
-2025-09-26,west,King Edward,24,24.0,501,424,1
-2025-09-27,west,King Edward,24,24.0,290,307,1
-2025-09-28,west,King Edward,24,24.0,351,306,1
-2025-09-29,west,King Edward,24,24.0,430,509,1
-2025-09-30,west,King Edward,24,24.0,343,498,1
-2025-10-01,west,King Edward,24,23.97,333,512,1
-2025-10-02,west,King Edward,24,23.99,324,399,1
-2025-10-03,west,King Edward,24,23.97,419,434,1
-2025-10-04,west,King Edward,24,24.0,375,328,1
-2025-10-05,west,King Edward,24,24.0,325,334,1
-2025-10-06,west,King Edward,24,24.0,443,418,1
-2025-10-07,west,King Edward,24,24.0,296,336,1
-2025-10-08,west,King Edward,24,24.0,351,405,1
-2025-10-09,west,King Edward,24,23.95,291,428,1
-2025-10-10,west,King Edward,24,23.93,315,390,1
-2025-10-11,west,King Edward,24,23.97,270,302,1
-2025-10-12,west,King Edward,24,23.99,234,310,1
-2025-10-13,west,King Edward,24,23.96,204,250,1
-2025-10-14,west,King Edward,24,23.97,365,368,1
-2025-10-15,west,King Edward,24,23.99,325,363,1
-2025-10-16,west,King Edward,24,23.92,262,462,1
-2025-10-17,west,King Edward,24,23.92,247,432,1
-2025-10-18,west,King Edward,24,23.9,225,283,1
-2025-10-19,west,King Edward,24,23.96,379,272,1
-2025-10-20,west,King Edward,24,23.58,189,367,1
-2025-10-21,west,King Edward,24,24.0,244,376,1
-2025-10-22,west,King Edward,24,24.0,222,404,1
-2025-10-23,west,King Edward,24,24.0,173,381,1
-2025-10-24,west,King Edward,24,24.0,273,336,1
-2025-10-25,west,King Edward,23,22.25,210,264,1
-2025-10-26,west,King Edward,24,24.0,160,303,1
-2025-10-27,west,King Edward,24,23.94,278,370,1
-2025-10-28,west,King Edward,24,24.0,292,392,1
-2025-10-29,west,King Edward,24,23.72,270,344,1
-2025-10-30,west,King Edward,24,23.96,81,337,1
-2025-10-31,west,King Edward,24,23.98,21,373,1
-2025-11-01,west,King Edward,24,23.96,143,300,1
-2025-11-02,west,King Edward,25,23.95,244,443,1
-2025-11-03,west,King Edward,24,23.98,204,354,1
-2025-11-04,west,King Edward,24,23.98,218,365,1
-2025-11-05,west,King Edward,24,23.84,143,316,1
-2025-11-06,west,King Edward,24,23.84,231,387,1
-2025-11-07,west,King Edward,24,23.74,146,317,1
+2025-04-09,west,King Edward,24,23.31,200,357,1
+2025-04-10,west,King Edward,24,23.72,211,352,1
+2025-04-11,west,King Edward,24,23.89,165,361,1
+2025-04-12,west,King Edward,24,23.92,203,292,1
+2025-04-13,west,King Edward,24,23.91,431,251,1
+2025-04-14,west,King Edward,24,23.9,392,350,1
+2025-04-15,west,King Edward,24,23.94,276,375,1
+2025-04-16,west,King Edward,24,23.86,103,410,1
+2025-04-17,west,King Edward,24,23.84,292,402,1
+2025-04-18,west,King Edward,24,23.92,233,296,1
+2025-04-19,west,King Edward,24,23.97,176,283,1
+2025-04-20,west,King Edward,24,23.94,254,245,1
+2025-04-21,west,King Edward,24,23.92,265,284,1
+2025-04-22,west,King Edward,24,23.93,230,379,1
+2025-04-23,west,King Edward,24,23.96,362,391,1
+2025-04-24,west,King Edward,24,23.94,384,421,1
+2025-04-25,west,King Edward,24,23.96,348,383,1
+2025-04-26,west,King Edward,24,23.98,64,318,1
+2025-04-27,west,King Edward,24,23.93,209,268,1
+2025-04-28,west,King Edward,24,23.96,578,365,1
+2025-04-29,west,King Edward,24,23.99,312,393,1
+2025-04-30,west,King Edward,24,23.94,450,737,1
+2025-05-01,west,King Edward,24,23.96,382,515,1
+2025-05-02,west,King Edward,24,23.99,343,405,1
+2025-05-03,west,King Edward,24,23.98,335,325,1
+2025-05-04,west,King Edward,24,23.96,579,304,1
+2025-05-05,west,King Edward,24,23.49,589,490,1
+2025-05-06,west,King Edward,24,23.99,337,488,1
+2025-05-07,west,King Edward,23,22.38,479,467,1
+2025-05-08,west,King Edward,24,23.97,394,506,1
+2025-05-09,west,King Edward,24,23.96,140,465,1
+2025-05-10,west,King Edward,24,23.68,308,361,1
+2025-05-11,west,King Edward,23,22.97,562,348,1
+2025-05-12,west,King Edward,24,23.74,516,452,1
+2025-05-13,west,King Edward,23,22.97,633,409,1
+2025-05-14,west,King Edward,24,23.99,627,470,1
+2025-05-15,west,King Edward,24,23.99,681,553,1
+2025-05-16,west,King Edward,23,22.49,424,453,1
+2025-05-17,west,King Edward,24,23.74,176,317,1
+2025-05-18,west,King Edward,24,23.96,210,355,1
+2025-05-19,west,King Edward,24,23.98,284,328,1
+2025-05-20,west,King Edward,23,22.97,429,476,1
+2025-05-21,west,King Edward,24,23.85,454,461,1
+2025-05-22,west,King Edward,24,23.97,268,469,1
+2025-05-23,west,King Edward,24,23.91,195,493,1
+2025-05-24,west,King Edward,24,23.94,86,317,1
+2025-05-25,west,King Edward,24,23.94,459,311,1
+2025-05-26,west,King Edward,24,23.99,501,497,1
+2025-05-27,west,King Edward,24,23.97,671,481,1
+2025-05-28,west,King Edward,24,23.99,608,522,1
+2025-05-29,west,King Edward,24,23.99,533,453,1
+2025-05-30,west,King Edward,24,23.99,630,524,1
+2025-05-31,west,King Edward,24,23.99,152,320,1
+2025-06-01,west,King Edward,24,23.99,231,306,1
+2025-06-02,west,King Edward,24,23.98,500,503,1
+2025-06-03,west,King Edward,24,23.99,724,461,1
+2025-06-04,west,King Edward,24,23.99,777,460,1
+2025-06-05,west,King Edward,24,23.99,710,478,1
+2025-06-06,west,King Edward,24,23.99,623,391,1
+2025-06-07,west,King Edward,24,23.98,461,363,1
+2025-06-08,west,King Edward,24,23.39,656,312,1
+2025-06-09,west,King Edward,24,23.99,565,401,1
+2025-06-10,west,King Edward,24,23.78,545,409,1
+2025-06-11,west,King Edward,24,23.99,864,451,1
+2025-06-12,west,King Edward,24,23.97,826,437,1
+2025-06-13,west,King Edward,24,23.96,620,418,1
+2025-06-14,west,King Edward,24,23.99,486,354,1
+2025-06-15,west,King Edward,24,23.97,498,301,1
+2025-06-16,west,King Edward,24,23.99,753,454,1
+2025-06-17,west,King Edward,24,23.99,702,364,1
+2025-06-18,west,King Edward,24,23.63,665,419,1
+2025-06-19,west,King Edward,24,23.99,433,431,1
+2025-06-20,west,King Edward,24,23.99,460,432,1
+2025-06-21,west,King Edward,24,23.99,458,328,1
+2025-06-22,west,King Edward,24,23.99,461,311,1
+2025-06-23,west,King Edward,24,23.99,352,391,1
+2025-06-24,west,King Edward,24,23.99,319,252,1
+2025-06-25,west,King Edward,24,23.99,622,389,1
+2025-06-26,west,King Edward,24,23.99,632,410,1
+2025-06-27,west,King Edward,24,23.98,506,445,1
+2025-06-28,west,King Edward,24,23.99,250,306,1
+2025-06-29,west,King Edward,24,23.99,473,279,1
+2025-06-30,west,King Edward,24,23.99,509,397,1
+2025-07-01,west,King Edward,24,23.99,367,281,1
+2025-07-02,west,King Edward,24,23.99,582,386,1
+2025-07-03,west,King Edward,24,23.98,551,370,1
+2025-07-04,west,King Edward,24,23.99,598,388,1
+2025-07-05,west,King Edward,24,23.99,504,315,1
+2025-07-06,west,King Edward,24,23.99,397,276,1
+2025-07-07,west,King Edward,24,23.4,345,352,1
+2025-07-08,west,King Edward,24,23.99,717,393,1
+2025-07-09,west,King Edward,24,23.99,687,403,1
+2025-07-10,west,King Edward,24,23.99,571,429,1
+2025-07-11,west,King Edward,24,23.99,463,379,1
+2025-07-12,west,King Edward,24,23.65,426,321,1
+2025-07-13,west,King Edward,24,23.99,298,258,1
+2025-07-14,west,King Edward,24,23.4,488,367,1
+2025-07-15,west,King Edward,24,23.99,572,370,1
+2025-07-16,west,King Edward,24,23.99,519,418,1
+2025-07-17,west,King Edward,24,23.99,304,352,1
+2025-07-18,west,King Edward,24,23.98,454,413,1
+2025-07-19,west,King Edward,24,23.99,468,285,1
+2025-07-20,west,King Edward,24,23.99,281,288,1
+2025-07-21,west,King Edward,24,23.99,322,340,1
+2025-07-22,west,King Edward,23,22.04,332,372,1
+2025-07-23,west,King Edward,24,23.74,272,352,1
+2025-07-24,west,King Edward,24,23.99,323,368,1
+2025-07-25,west,King Edward,24,23.99,277,385,1
+2025-07-26,west,King Edward,24,23.99,224,325,1
+2025-07-27,west,King Edward,24,23.99,280,262,1
+2025-07-28,west,King Edward,24,23.99,289,349,1
+2025-07-29,west,King Edward,24,23.99,366,359,1
+2025-07-30,west,King Edward,24,23.99,403,334,1
+2025-07-31,west,King Edward,24,23.99,509,384,1
+2025-08-01,west,King Edward,24,23.99,271,357,1
+2025-08-02,west,King Edward,24,23.97,301,307,1
+2025-08-03,west,King Edward,24,23.99,316,290,1
+2025-08-04,west,King Edward,24,23.99,380,384,1
+2025-08-05,west,King Edward,24,23.99,396,357,1
+2025-08-06,west,King Edward,24,23.99,293,392,1
+2025-08-07,west,King Edward,24,23.99,376,402,1
+2025-08-08,west,King Edward,24,23.39,429,416,1
+2025-08-09,west,King Edward,24,23.99,294,306,1
+2025-08-10,west,King Edward,24,23.99,320,284,1
+2025-08-11,west,King Edward,21,17.94,333,428,1
+2025-08-12,west,King Edward,24,23.99,314,389,1
+2025-08-13,west,King Edward,24,23.97,436,459,1
+2025-08-14,west,King Edward,24,23.99,549,449,1
+2025-08-15,west,King Edward,24,23.99,328,388,1
+2025-08-16,west,King Edward,24,23.99,330,300,1
+2025-08-17,west,King Edward,24,23.99,227,262,1
+2025-08-18,west,King Edward,24,23.96,367,359,1
+2025-08-19,west,King Edward,24,23.99,559,357,1
+2025-08-20,west,King Edward,24,23.99,537,398,1
+2025-08-21,west,King Edward,24,23.99,473,409,1
+2025-08-22,west,King Edward,24,23.99,365,423,1
+2025-08-23,west,King Edward,24,23.99,410,303,1
+2025-08-24,west,King Edward,24,23.99,399,288,1
+2025-08-25,west,King Edward,24,23.99,471,525,1
+2025-08-26,west,King Edward,24,23.98,461,449,1
+2025-08-27,west,King Edward,24,23.99,537,499,1
+2025-08-28,west,King Edward,24,23.99,360,465,1
+2025-08-29,west,King Edward,24,23.99,350,471,1
+2025-08-30,west,King Edward,24,23.99,171,320,1
+2025-08-31,west,King Edward,24,23.99,274,321,1
+2025-09-01,west,King Edward,24,23.99,457,247,1
+2025-09-02,west,King Edward,24,23.99,526,582,1
+2025-09-03,west,King Edward,24,23.99,506,666,1
+2025-09-04,west,King Edward,16,15.24,212,487,1
+2025-09-05,west,King Edward,12,11.39,329,330,1
+2025-09-06,west,King Edward,24,23.99,172,301,1
+2025-09-07,west,King Edward,24,23.99,364,318,1
+2025-09-08,west,King Edward,24,23.99,370,624,1
+2025-09-09,west,King Edward,24,23.99,542,696,1
+2025-09-10,west,King Edward,24,23.98,487,606,1
+2025-09-11,west,King Edward,24,23.99,593,462,1
+2025-09-12,west,King Edward,24,23.98,369,376,1
+2025-09-13,west,King Edward,24,23.99,380,356,1
+2025-09-14,west,King Edward,24,23.99,350,346,1
+2025-09-15,west,King Edward,24,23.99,410,387,1
+2025-09-16,west,King Edward,24,23.99,404,412,1
+2025-09-17,west,King Edward,24,23.99,613,423,1
+2025-09-18,west,King Edward,24,23.99,486,395,1
+2025-09-19,west,King Edward,24,23.99,322,423,1
+2025-09-20,west,King Edward,24,23.95,207,378,1
+2025-09-21,west,King Edward,24,23.94,260,357,1
+2025-09-22,west,King Edward,24,23.99,508,420,1
+2025-09-23,west,King Edward,24,23.99,389,396,1
+2025-09-24,west,King Edward,24,23.98,589,408,1
+2025-09-25,west,King Edward,24,23.98,205,412,1
+2025-09-26,west,King Edward,24,23.99,501,424,1
+2025-09-27,west,King Edward,24,23.98,290,307,1
+2025-09-28,west,King Edward,24,23.99,351,306,1
+2025-09-29,west,King Edward,24,23.99,430,509,1
+2025-09-30,west,King Edward,24,23.99,343,498,1
+2025-10-01,west,King Edward,24,23.96,333,512,1
+2025-10-02,west,King Edward,24,23.96,324,399,1
+2025-10-03,west,King Edward,24,23.96,419,434,1
+2025-10-04,west,King Edward,24,23.99,375,328,1
+2025-10-05,west,King Edward,24,23.98,325,334,1
+2025-10-06,west,King Edward,24,23.98,443,418,1
+2025-10-07,west,King Edward,24,23.99,296,336,1
+2025-10-08,west,King Edward,24,23.98,351,405,1
+2025-10-09,west,King Edward,24,23.94,291,428,1
+2025-10-10,west,King Edward,24,23.92,315,390,1
+2025-10-11,west,King Edward,24,23.95,270,302,1
+2025-10-12,west,King Edward,24,23.98,234,310,1
+2025-10-13,west,King Edward,24,23.94,204,250,1
+2025-10-14,west,King Edward,24,23.96,365,368,1
+2025-10-15,west,King Edward,24,23.98,325,363,1
+2025-10-16,west,King Edward,24,23.91,262,462,1
+2025-10-17,west,King Edward,24,23.91,247,432,1
+2025-10-18,west,King Edward,24,23.88,225,283,1
+2025-10-19,west,King Edward,24,23.94,379,272,1
+2025-10-20,west,King Edward,24,23.56,189,367,1
+2025-10-21,west,King Edward,24,23.99,244,376,1
+2025-10-22,west,King Edward,24,23.99,222,404,1
+2025-10-23,west,King Edward,24,23.98,173,381,1
+2025-10-24,west,King Edward,24,23.99,273,336,1
+2025-10-25,west,King Edward,23,22.24,210,264,1
+2025-10-26,west,King Edward,24,23.98,160,303,1
+2025-10-27,west,King Edward,24,23.92,278,370,1
+2025-10-28,west,King Edward,24,23.99,292,392,1
+2025-10-29,west,King Edward,24,23.71,270,344,1
+2025-10-30,west,King Edward,24,23.95,81,337,1
+2025-10-31,west,King Edward,24,23.97,21,373,1
+2025-11-01,west,King Edward,24,23.95,143,300,1
+2025-11-02,west,King Edward,24,22.95,243,443,1
+2025-11-03,west,King Edward,24,23.97,204,354,1
+2025-11-04,west,King Edward,24,23.97,218,365,1
+2025-11-05,west,King Edward,24,23.81,143,316,1
+2025-11-06,west,King Edward,24,23.82,231,387,1
+2025-11-07,west,King Edward,24,23.73,146,317,1
 2025-11-08,west,King Edward,24,23.71,114,259,1
-2025-11-09,west,King Edward,24,22.95,47,201,1
+2025-11-09,west,King Edward,24,22.93,47,201,1
 2025-11-10,west,King Edward,24,23.46,54,272,1
-2025-11-11,west,King Edward,24,23.33,11,211,1
-2025-11-12,west,King Edward,24,23.4,14,265,1
-2025-11-13,west,King Edward,24,23.71,24,259,1
-2025-11-14,west,King Edward,24,23.08,32,289,1
+2025-11-11,west,King Edward,24,23.3,11,211,1
+2025-11-12,west,King Edward,24,23.42,14,264,1
+2025-11-13,west,King Edward,24,23.7,24,259,1
+2025-11-14,west,King Edward,24,23.06,32,289,1
 2025-11-15,west,King Edward,24,23.25,54,263,1
-2025-11-16,west,King Edward,24,23.3,15,178,1
-2025-11-17,west,King Edward,24,23.27,36,248,1
-2025-11-18,west,King Edward,24,23.18,32,254,1
-2025-11-19,west,King Edward,24,22.71,43,234,1
-2025-11-20,west,King Edward,24,22.69,52,269,1
-2025-11-21,west,King Edward,24,23.33,13,271,1
-2025-11-22,west,King Edward,24,23.43,58,221,1
-2025-11-23,west,King Edward,24,23.13,37,167,1
+2025-11-16,west,King Edward,24,23.32,15,178,1
+2025-11-17,west,King Edward,24,23.28,36,247,1
+2025-11-18,west,King Edward,24,23.17,32,254,1
+2025-11-19,west,King Edward,24,22.73,43,231,1
+2025-11-20,west,King Edward,24,22.68,51,268,1
+2025-11-21,west,King Edward,24,23.31,13,271,1
+2025-11-22,west,King Edward,24,23.42,58,221,1
+2025-11-23,west,King Edward,24,23.14,37,167,1
 2025-11-24,west,King Edward,24,23.56,70,285,1
-2025-11-25,west,King Edward,24,23.87,143,267,1
+2025-11-25,west,King Edward,24,23.86,143,267,1
 2025-11-26,west,King Edward,24,23.96,73,233,1
 2025-11-27,west,King Edward,24,23.73,85,296,1
-2025-11-28,west,King Edward,24,22.91,47,291,1
-2025-11-29,west,King Edward,24,22.88,79,231,1
-2025-11-30,west,King Edward,24,23.31,16,184,1
-2025-12-01,west,King Edward,24,21.71,51,282,1
-2025-12-02,west,King Edward,24,20.37,31,394,1
-2025-12-03,west,King Edward,24,20.19,23,249,1
-2025-12-04,west,King Edward,24,18.46,10,298,1
-2025-12-05,west,King Edward,24,15.91,54,262,1
-2025-12-06,west,King Edward,24,22.01,16,212,1
-2025-12-07,west,King Edward,24,17.7,8,195,1
-2025-12-08,west,King Edward,24,13.57,29,329,1
-2025-12-09,west,King Edward,24,15.96,35,297,1
-2025-12-10,west,King Edward,24,22.28,18,225,1
-2025-12-11,west,King Edward,24,19.11,13,294,1
-2025-12-12,west,King Edward,19,15.34,14,306,1
-2025-12-29,west,King Edward,14,13.25,0,85,1
-2025-12-30,west,King Edward,24,23.21,7,205,1
-2025-12-31,west,King Edward,24,23.38,6,187,1
+2025-11-28,west,King Edward,24,22.91,47,289,1
+2025-11-29,west,King Edward,24,22.86,79,231,1
+2025-11-30,west,King Edward,24,23.29,16,184,1
+2025-12-01,west,King Edward,24,21.73,50,275,1
+2025-12-02,west,King Edward,24,20.37,28,389,1
+2025-12-03,west,King Edward,24,20.2,22,244,1
+2025-12-04,west,King Edward,24,18.5,10,294,1
+2025-12-05,west,King Edward,24,15.93,52,256,1
+2025-12-06,west,King Edward,24,22.03,16,210,1
+2025-12-07,west,King Edward,24,17.7,8,186,1
+2025-12-08,west,King Edward,24,13.56,25,320,1
+2025-12-09,west,King Edward,24,15.95,31,293,1
+2025-12-10,west,King Edward,24,22.27,18,224,1
+2025-12-11,west,King Edward,24,19.1,12,287,1
+2025-12-12,west,King Edward,19,15.33,13,303,1
+2025-12-29,west,King Edward,14,13.24,0,84,1
+2025-12-30,west,King Edward,24,23.2,7,204,1
+2025-12-31,west,King Edward,24,23.36,6,187,1
 2026-01-01,west,King Edward,24,23.0,10,109,1
-2026-01-02,west,King Edward,24,22.4,10,200,1
-2026-01-03,west,King Edward,24,23.08,3,176,1
-2026-01-04,west,King Edward,24,22.91,6,174,1
-2026-01-05,west,King Edward,24,22.48,10,263,1
+2026-01-02,west,King Edward,24,22.39,10,198,1
+2026-01-03,west,King Edward,24,23.07,3,176,1
+2026-01-04,west,King Edward,24,22.88,6,173,1
+2026-01-05,west,King Edward,24,22.49,10,260,1
 2026-01-06,west,King Edward,24,23.66,8,256,1
-2026-01-07,west,King Edward,24,23.89,11,256,1
+2026-01-07,west,King Edward,24,23.9,11,256,1
 2026-01-08,west,King Edward,24,23.92,3,273,1
-2026-01-09,west,King Edward,24,23.98,7,196,1
-2026-01-10,west,King Edward,24,23.98,51,197,1
-2026-01-11,west,King Edward,24,23.98,5,133,1
-2026-01-12,west,King Edward,24,23.79,11,273,1
-2026-01-13,west,King Edward,24,23.98,9,253,1
-2026-01-14,west,King Edward,24,24.0,9,234,1
-2026-01-15,west,King Edward,24,23.73,22,262,1
-2026-01-16,west,King Edward,24,22.71,10,293,1
-2026-01-17,west,King Edward,24,23.65,23,212,1
-2026-01-18,west,King Edward,24,23.89,23,208,1
+2026-01-09,west,King Edward,24,23.97,7,196,1
+2026-01-10,west,King Edward,24,23.96,51,197,1
+2026-01-11,west,King Edward,24,23.97,5,133,1
+2026-01-12,west,King Edward,24,23.78,11,273,1
+2026-01-13,west,King Edward,24,23.96,9,253,1
+2026-01-14,west,King Edward,24,23.99,9,234,1
+2026-01-15,west,King Edward,24,23.71,22,262,1
+2026-01-16,west,King Edward,24,22.7,10,291,1
+2026-01-17,west,King Edward,24,23.62,23,212,1
+2026-01-18,west,King Edward,24,23.88,23,208,1
 2026-01-19,west,King Edward,24,23.81,27,322,1
-2026-01-20,west,King Edward,24,23.32,5,317,1
-2026-01-21,west,King Edward,24,23.54,17,279,1
-2026-01-22,west,King Edward,24,23.94,10,336,1
-2026-01-23,west,King Edward,24,22.91,7,267,1
-2026-01-24,west,King Edward,24,18.96,0,222,1
-2026-01-25,west,King Edward,24,20.96,0,252,1
-2026-01-26,west,King Edward,24,22.91,9,268,1
-2026-01-27,west,King Edward,24,22.7,29,283,1
+2026-01-20,west,King Edward,24,23.31,5,315,1
+2026-01-21,west,King Edward,24,23.54,17,278,1
+2026-01-22,west,King Edward,24,23.92,10,336,1
+2026-01-23,west,King Edward,24,22.89,7,267,1
+2026-01-24,west,King Edward,24,18.96,0,215,1
+2026-01-25,west,King Edward,24,20.96,0,247,1
+2026-01-26,west,King Edward,24,22.92,9,268,1
+2026-01-27,west,King Edward,24,22.69,29,281,1
 2026-01-28,west,King Edward,10,8.65,2,94,1
-2026-03-07,west,King Edward,13,12.92,43,163,1
-2026-03-08,west,King Edward,23,22.9,127,267,1
-2026-03-09,west,King Edward,24,24.0,307,310,1
-2026-03-10,west,King Edward,24,24.0,294,382,1
-2026-03-11,west,King Edward,24,23.96,23,150,1
-2026-03-12,west,King Edward,24,23.95,128,276,1
-2026-03-13,west,King Edward,24,23.93,224,318,1
-2026-03-14,west,King Edward,24,23.99,10,218,1
-2026-03-15,west,King Edward,24,23.41,35,233,1
-2026-03-16,west,King Edward,24,23.63,208,323,1
-2026-03-17,west,King Edward,24,23.87,29,327,1
-2026-03-18,west,King Edward,24,23.54,70,317,1
+2026-03-07,west,King Edward,13,12.91,43,163,1
+2026-03-08,west,King Edward,23,22.89,127,267,1
+2026-03-09,west,King Edward,24,23.99,307,310,1
+2026-03-10,west,King Edward,24,23.99,294,382,1
+2026-03-11,west,King Edward,24,23.94,23,150,1
+2026-03-12,west,King Edward,24,23.94,128,276,1
+2026-03-13,west,King Edward,24,23.92,224,318,1
+2026-03-14,west,King Edward,24,23.97,10,218,1
+2026-03-15,west,King Edward,24,23.4,35,233,1
+2026-03-16,west,King Edward,24,23.62,208,323,1
+2026-03-17,west,King Edward,24,23.86,29,327,1
+2026-03-18,west,King Edward,24,23.52,70,317,1
 2026-03-19,west,King Edward,24,23.85,101,372,1
 2026-03-20,west,King Edward,24,23.92,35,430,1
-2026-03-21,west,King Edward,24,23.98,137,289,1
-2026-03-22,west,King Edward,24,23.93,19,239,1
+2026-03-21,west,King Edward,24,23.96,137,289,1
+2026-03-22,west,King Edward,24,23.92,19,239,1
 2026-03-23,west,King Edward,24,23.93,8,195,1
-2026-03-24,west,King Edward,24,23.94,20,254,1
-2026-03-25,west,King Edward,24,24.0,83,322,1
-2026-03-26,west,King Edward,24,23.96,30,490,1
-2026-03-27,west,King Edward,24,23.97,72,368,1
-2026-03-28,west,King Edward,24,23.49,93,270,1
-2026-03-29,west,King Edward,24,23.97,174,262,1
-2026-03-30,west,King Edward,24,24.0,270,299,1
-2026-03-31,west,King Edward,24,24.0,80,325,1
-2026-04-01,west,King Edward,24,23.96,43,28,1
-2026-04-02,west,King Edward,24,23.99,54,21,1
-2026-04-03,west,King Edward,24,23.99,88,31,1
-2026-04-04,west,King Edward,24,24.0,54,25,1
-2026-04-05,west,King Edward,24,24.0,28,17,1
-2026-04-06,west,King Edward,24,23.94,82,12,1
-2026-04-07,west,King Edward,24,23.93,46,27,1
-2026-04-08,west,King Edward,24,23.92,56,21,1
-2026-04-09,west,King Edward,24,24.0,189,36,1
-2026-04-10,west,King Edward,24,24.0,60,17,1
-2026-04-11,west,King Edward,24,24.0,177,128,1
-2026-04-12,west,King Edward,24,23.97,223,262,1
-2026-04-13,west,King Edward,24,24.0,134,372,1
-2026-04-14,west,King Edward,24,24.0,194,363,1
-2026-04-15,west,King Edward,24,24.0,254,361,1
-2026-04-16,west,King Edward,24,24.0,8,47,1
-2026-04-17,west,King Edward,24,23.16,445,417,1
-2026-04-18,west,King Edward,24,24.0,400,312,1
-2026-04-19,west,King Edward,24,24.0,84,253,1
-2026-04-20,west,King Edward,24,24.0,218,385,1
-2026-04-21,west,King Edward,24,23.95,284,376,1
-2026-04-22,west,King Edward,24,24.0,369,404,1
-2026-04-23,west,King Edward,24,24.0,526,432,1
-2026-04-24,west,King Edward,24,24.0,464,371,1
-2026-04-25,west,King Edward,24,24.0,534,334,1
-2026-04-26,west,King Edward,24,24.0,644,309,1
-2026-04-27,west,King Edward,24,24.0,628,413,1
-2026-04-28,west,King Edward,24,24.0,566,367,1
-2026-04-29,west,King Edward,24,24.0,474,354,1
-2026-04-30,west,King Edward,24,24.0,207,380,1
-2026-05-01,west,King Edward,24,24.0,357,400,1
-2026-05-02,west,King Edward,24,24.0,236,304,1
-2026-05-03,west,King Edward,24,24.0,312,282,1
-2026-05-04,west,King Edward,17,17.0,189,287,1
-2024-09-24,east,Draper,7,6.0,105,282,0
-2024-09-25,east,Draper,24,23.25,404,1787,1
-2024-09-26,east,Draper,18,17.0,320,929,1
-2024-09-27,east,Draper,20,18.75,664,1765,1
-2024-09-28,east,Draper,24,23.25,521,1351,1
-2024-09-29,east,Draper,24,24.0,478,1254,1
-2024-09-30,east,Draper,22,21.0,192,353,1
-2024-10-01,east,Draper,24,23.49,450,914,1
-2024-10-02,east,Draper,23,18.25,269,706,1
-2024-10-03,east,Draper,23,21.25,394,1397,1
-2024-10-04,east,Draper,22,20.0,422,1118,1
-2024-10-05,east,Draper,24,24.0,395,927,1
-2024-10-06,east,Draper,24,24.0,296,925,1
-2024-10-07,east,Draper,24,23.25,457,1717,1
-2024-10-08,east,Draper,24,23.0,467,1544,1
-2024-10-09,east,Draper,21,18.25,412,1472,1
-2024-10-10,east,Draper,20,17.74,388,1542,1
-2024-10-11,east,Draper,22,21.0,287,1136,1
-2024-10-12,east,Draper,24,23.0,215,972,1
-2024-10-13,east,Draper,24,22.75,248,1035,1
-2024-10-14,east,Draper,23,21.0,80,955,1
-2024-10-15,east,Draper,24,22.75,302,1826,1
-2024-10-16,east,Draper,24,22.25,370,1743,1
-2024-10-17,east,Draper,24,20.25,405,1530,1
-2024-10-18,east,Draper,24,22.25,332,1185,1
-2024-10-19,east,Draper,24,23.0,313,1072,1
-2024-10-20,east,Draper,24,24.0,367,887,1
-2024-10-21,east,Draper,24,22.5,490,1298,1
-2024-10-22,east,Draper,24,22.75,533,1177,1
-2024-10-23,east,Draper,24,22.0,514,1338,1
-2024-10-24,east,Draper,24,22.25,436,1100,1
-2024-10-25,east,Draper,24,22.75,355,1197,1
-2024-10-26,east,Draper,23,21.75,297,1087,1
-2024-10-27,east,Draper,24,23.25,201,1199,1
-2024-10-28,east,Draper,24,22.5,285,1093,1
-2024-10-29,east,Draper,24,22.25,408,1160,1
-2024-10-30,east,Draper,22,20.75,405,1428,1
-2024-10-31,east,Draper,22,21.25,486,1379,1
-2024-11-01,east,Draper,24,24.0,359,1249,1
-2024-11-02,east,Draper,24,24.0,185,1310,1
-2024-11-03,east,Draper,25,25.0,206,758,1
-2024-11-04,east,Draper,22,21.5,175,1360,1
-2024-11-05,east,Draper,24,22.5,333,1440,1
-2024-11-06,east,Draper,23,19.25,308,1226,1
-2024-11-07,east,Draper,22,17.5,248,1192,1
-2024-11-08,east,Draper,17,13.75,143,816,1
-2024-11-09,east,Draper,18,14.25,137,542,1
-2024-11-10,east,Draper,15,12.0,75,429,1
-2024-11-11,east,Draper,13,10.5,101,862,1
-2024-11-12,east,Draper,13,8.0,81,219,1
-2024-11-13,east,Draper,19,17.5,164,645,1
-2024-11-14,east,Draper,23,22.28,153,1346,1
-2024-11-15,east,Draper,24,24.0,247,1105,1
-2024-11-16,east,Draper,24,24.0,207,781,1
-2024-11-17,east,Draper,24,24.0,150,882,1
-2024-11-18,east,Draper,24,24.0,245,1469,1
-2024-11-19,east,Draper,24,24.0,220,1001,1
-2024-11-20,east,Draper,24,24.0,192,1420,1
-2024-11-21,east,Draper,24,24.0,197,1503,1
-2024-11-22,east,Draper,24,24.0,99,1103,1
-2024-11-23,east,Draper,24,24.0,189,1320,1
-2024-11-24,east,Draper,24,23.76,119,1158,1
-2024-11-25,east,Draper,23,22.73,148,1408,1
-2024-11-26,east,Draper,23,22.24,71,1466,1
-2024-11-27,east,Draper,24,24.0,126,1146,1
-2024-11-28,east,Draper,24,24.0,139,1514,1
-2024-11-29,east,Draper,24,23.69,134,1311,1
-2024-11-30,east,Draper,24,23.65,104,1249,1
-2024-12-01,east,Draper,24,24.0,72,1102,1
-2024-12-02,east,Draper,24,24.0,95,1208,1
-2024-12-03,east,Draper,24,23.5,109,1261,1
-2024-12-04,east,Draper,21,19.99,88,1350,1
-2024-12-05,east,Draper,24,23.41,64,786,1
-2024-12-06,east,Draper,24,23.5,45,584,1
-2024-12-07,east,Draper,22,21.24,17,460,1
-2024-12-08,east,Draper,19,17.5,18,593,1
-2024-12-09,east,Draper,21,19.23,38,725,1
-2024-12-10,east,Draper,22,20.98,28,819,1
-2024-12-11,east,Draper,24,22.96,16,1352,1
-2024-12-12,east,Draper,24,23.59,52,1317,1
-2024-12-13,east,Draper,23,22.75,43,1274,1
-2024-12-14,east,Draper,19,18.19,41,889,1
-2024-12-15,east,Draper,13,11.45,13,412,1
-2024-12-16,east,Draper,24,24.0,51,1275,1
-2024-12-17,east,Draper,24,24.0,94,1284,1
-2024-12-18,east,Draper,24,24.0,90,1479,1
-2024-12-19,east,Draper,24,24.0,54,1486,1
-2024-12-20,east,Draper,24,24.0,56,1465,1
-2024-12-21,east,Draper,24,24.0,32,475,1
-2024-12-22,east,Draper,24,23.49,14,527,1
+2026-03-24,west,King Edward,24,23.92,20,254,1
+2026-03-25,west,King Edward,24,23.98,83,322,1
+2026-03-26,west,King Edward,24,23.95,30,490,1
+2026-03-27,west,King Edward,24,23.95,72,368,1
+2026-03-28,west,King Edward,24,23.48,93,270,1
+2026-03-29,west,King Edward,24,23.96,174,262,1
+2026-03-30,west,King Edward,24,23.99,270,299,1
+2026-03-31,west,King Edward,24,23.99,80,325,1
+2026-04-01,west,King Edward,24,23.95,43,28,1
+2026-04-02,west,King Edward,24,23.97,54,21,1
+2026-04-03,west,King Edward,24,23.97,88,31,1
+2026-04-04,west,King Edward,24,23.99,54,25,1
+2026-04-05,west,King Edward,24,23.99,28,17,1
+2026-04-06,west,King Edward,24,23.93,82,12,1
+2026-04-07,west,King Edward,24,23.92,46,27,1
+2026-04-08,west,King Edward,24,23.91,56,21,1
+2026-04-09,west,King Edward,24,23.99,189,36,1
+2026-04-10,west,King Edward,24,23.98,60,17,1
+2026-04-11,west,King Edward,24,23.98,177,128,1
+2026-04-12,west,King Edward,24,23.95,223,262,1
+2026-04-13,west,King Edward,24,23.99,134,372,1
+2026-04-14,west,King Edward,24,23.99,194,363,1
+2026-04-15,west,King Edward,24,23.99,254,361,1
+2026-04-16,west,King Edward,24,23.98,8,47,1
+2026-04-17,west,King Edward,24,23.14,445,417,1
+2026-04-18,west,King Edward,24,23.98,400,312,1
+2026-04-19,west,King Edward,24,23.99,84,253,1
+2026-04-20,west,King Edward,24,23.99,218,385,1
+2026-04-21,west,King Edward,24,23.94,284,376,1
+2026-04-22,west,King Edward,24,23.99,369,404,1
+2026-04-23,west,King Edward,24,23.99,526,432,1
+2026-04-24,west,King Edward,24,23.98,464,371,1
+2026-04-25,west,King Edward,24,23.99,534,334,1
+2026-04-26,west,King Edward,24,23.99,644,309,1
+2026-04-27,west,King Edward,24,23.98,628,413,1
+2026-04-28,west,King Edward,24,23.98,566,367,1
+2026-04-29,west,King Edward,24,23.99,474,354,1
+2026-04-30,west,King Edward,24,23.99,207,380,1
+2026-05-01,west,King Edward,24,23.99,357,400,1
+2026-05-02,west,King Edward,24,23.98,236,304,1
+2026-05-03,west,King Edward,24,23.98,312,282,1
+2026-05-04,west,King Edward,24,23.99,297,379,1
+2026-05-05,west,King Edward,24,23.99,298,396,1
+2026-05-06,west,King Edward,24,23.99,170,397,1
+2026-05-07,west,King Edward,24,23.99,245,91,1
+2026-05-08,west,King Edward,24,23.99,406,162,1
+2026-05-09,west,King Edward,24,23.99,460,257,1
+2026-05-10,west,King Edward,24,23.99,383,290,1
+2026-05-11,west,King Edward,24,23.74,380,200,1
+2026-05-12,west,King Edward,24,23.98,466,331,1
+2026-05-13,west,King Edward,24,23.61,208,415,1
+2026-05-14,west,King Edward,24,23.77,220,441,1
+2026-05-15,west,King Edward,24,23.98,404,370,1
+2026-05-16,west,King Edward,24,23.14,616,354,1
+2026-05-17,west,King Edward,24,23.99,668,287,1
+2026-05-18,west,King Edward,24,23.99,511,291,1
+2026-05-19,west,King Edward,24,23.98,595,381,1
+2026-05-20,west,King Edward,24,23.99,569,431,1
+2026-05-21,west,King Edward,24,23.98,473,456,1
+2026-05-22,west,King Edward,24,23.99,462,430,1
+2026-05-23,west,King Edward,24,23.0,515,374,1
+2026-05-24,west,King Edward,24,23.99,173,330,1
+2026-05-25,west,King Edward,24,23.99,401,364,1
+2026-05-26,west,King Edward,24,23.49,665,479,1
+2026-05-27,west,King Edward,24,23.99,607,401,1
+2026-05-28,west,King Edward,24,23.99,520,399,1
+2026-05-29,west,King Edward,24,23.99,280,303,1
+2026-05-30,west,King Edward,24,23.99,478,309,1
+2026-05-31,west,King Edward,24,23.98,332,264,1
+2026-06-01,west,King Edward,24,23.74,550,338,1
+2026-06-02,west,King Edward,24,23.99,570,377,1
+2026-06-03,west,King Edward,24,23.99,596,344,1
+2026-06-04,west,King Edward,24,23.99,554,340,1
+2026-06-05,west,King Edward,24,23.4,636,339,1
+2026-06-06,west,King Edward,24,23.98,216,315,1
+2026-06-07,west,King Edward,24,23.14,401,341,1
+2026-06-08,west,King Edward,24,23.24,619,406,1
+2026-06-09,west,King Edward,24,23.99,552,447,1
+2026-06-10,west,King Edward,24,23.74,457,353,1
+2026-06-11,west,King Edward,24,23.99,559,400,1
+2026-06-12,west,King Edward,24,23.99,562,405,1
+2026-06-13,west,King Edward,24,23.99,523,363,1
+2026-06-14,west,King Edward,24,23.74,87,259,1
+2026-06-15,west,King Edward,24,23.99,637,395,1
+2026-06-16,west,King Edward,24,23.98,666,462,1
+2026-06-17,west,King Edward,24,23.99,579,403,1
+2026-06-18,west,King Edward,24,23.34,186,380,1
+2026-06-19,west,King Edward,24,23.99,242,372,1
+2026-06-20,west,King Edward,24,23.88,158,291,1
+2026-06-21,west,King Edward,24,23.99,376,304,1
+2026-06-22,west,King Edward,24,23.99,517,345,1
+2026-06-23,west,King Edward,24,23.99,589,372,1
+2026-06-24,west,King Edward,24,23.64,577,204,1
+2026-06-25,west,King Edward,24,23.99,506,332,1
+2026-06-26,west,King Edward,24,23.99,465,302,1
+2026-06-27,west,King Edward,24,23.99,480,292,1
+2026-06-28,west,King Edward,24,23.99,400,289,1
+2026-06-29,west,King Edward,24,23.99,559,332,1
+2026-06-30,west,King Edward,24,23.99,515,387,1
+2026-07-01,west,King Edward,24,23.99,349,294,1
+2026-07-02,west,King Edward,24,23.99,430,418,1
+2026-07-03,west,King Edward,24,23.99,446,340,1
+2026-07-04,west,King Edward,24,23.9,490,263,1
+2026-07-05,west,King Edward,24,23.99,437,270,1
+2026-07-06,west,King Edward,24,23.99,576,346,1
+2026-07-07,west,King Edward,24,23.99,530,405,1
+2026-07-08,west,King Edward,24,23.99,523,419,1
+2026-07-09,west,King Edward,24,23.98,328,437,1
+2026-07-10,west,King Edward,19,18.49,471,344,1
+2026-08-09,west,King Edward,11,10.1,0,0,1
+2026-08-10,west,King Edward,24,23.69,343,336,1
+2026-08-11,west,King Edward,24,23.99,538,390,1
+2026-08-12,west,King Edward,24,23.99,473,332,1
+2026-08-13,west,King Edward,24,23.99,467,381,1
+2026-08-14,west,King Edward,24,23.99,475,947,1
+2026-08-15,west,King Edward,24,23.99,484,398,1
+2026-08-16,west,King Edward,24,23.99,446,429,1
+2026-08-17,west,King Edward,24,23.98,539,348,1
+2026-08-18,west,King Edward,24,23.99,687,372,1
+2026-08-19,west,King Edward,24,23.99,472,385,1
+2026-08-20,west,King Edward,24,23.99,584,318,1
+2026-08-21,west,King Edward,24,23.99,473,338,1
+2026-08-22,west,King Edward,24,23.99,452,310,1
+2026-08-23,west,King Edward,24,23.98,295,248,1
+2026-08-24,west,King Edward,24,23.98,369,309,1
+2026-08-25,west,King Edward,24,23.99,465,357,1
+2026-08-26,west,King Edward,24,23.99,529,415,1
+2026-08-27,west,King Edward,24,23.98,438,368,1
+2026-08-28,west,King Edward,24,23.98,552,397,1
+2026-08-29,west,King Edward,24,23.99,391,348,1
+2026-08-30,west,King Edward,24,23.99,470,319,1
+2026-08-31,west,King Edward,24,23.99,388,336,1
+2026-09-01,west,King Edward,24,23.98,458,390,1
+2026-09-02,west,King Edward,24,23.98,549,402,1
+2026-09-03,west,King Edward,24,23.99,562,384,1
+2026-09-04,west,King Edward,24,23.99,405,375,1
+2026-09-05,west,King Edward,24,23.99,328,284,1
+2026-09-06,west,King Edward,24,23.39,407,301,1
+2026-09-07,west,King Edward,24,23.99,450,275,1
+2026-09-08,west,King Edward,24,23.99,528,380,1
+2026-09-09,west,King Edward,24,22.9,373,339,1
+2026-09-10,west,King Edward,24,23.99,439,697,1
+2026-09-11,west,King Edward,24,23.4,417,354,1
+2026-09-12,west,King Edward,24,23.99,330,333,1
+2026-09-13,west,King Edward,24,23.99,303,273,1
+2026-09-14,west,King Edward,24,23.99,457,336,1
+2026-09-15,west,King Edward,24,23.99,457,335,1
+2026-09-16,west,King Edward,24,23.99,635,369,1
+2026-09-17,west,King Edward,24,23.99,584,347,1
+2026-09-18,west,King Edward,24,23.99,457,384,1
+2026-09-19,west,King Edward,24,23.99,329,339,1
+2026-09-20,west,King Edward,24,23.99,369,278,1
+2026-09-21,west,King Edward,24,23.99,410,317,1
+2026-09-22,west,King Edward,24,23.99,343,332,1
+2026-09-23,west,King Edward,24,23.99,426,429,1
+2026-09-24,west,King Edward,24,23.98,388,307,1
+2026-09-25,west,King Edward,24,23.99,386,298,1
+2026-09-26,west,King Edward,24,23.99,389,277,1
+2026-09-27,west,King Edward,24,23.99,339,264,1
+2026-09-28,west,King Edward,24,23.99,350,346,1
+2026-09-29,west,King Edward,24,23.99,489,325,1
+2026-09-30,west,King Edward,24,23.98,526,378,1
+2026-10-01,west,King Edward,24,23.99,418,408,1
+2026-10-02,west,King Edward,24,23.74,302,340,1
+2026-10-03,west,King Edward,24,23.99,270,301,1
+2026-10-04,west,King Edward,24,23.99,297,224,1
+2026-10-05,west,King Edward,24,23.99,313,396,1
+2026-10-06,west,King Edward,24,23.99,328,456,1
+2026-10-07,west,King Edward,24,23.98,404,374,1
+2026-10-08,west,King Edward,24,23.98,259,370,1
+2026-10-09,west,King Edward,24,23.99,376,365,1
+2026-10-10,west,King Edward,24,23.98,215,320,1
+2026-10-11,west,King Edward,24,23.98,240,237,1
+2026-10-12,west,King Edward,24,23.99,192,197,1
+2026-10-13,west,King Edward,24,23.99,113,298,1
+2026-10-14,west,King Edward,24,23.99,322,337,1
+2026-10-15,west,King Edward,24,23.98,286,381,1
+2026-10-16,west,King Edward,24,23.98,59,378,1
+2026-10-17,west,King Edward,24,23.99,186,291,1
+2026-10-18,west,King Edward,24,23.99,296,318,1
+2026-10-19,west,King Edward,24,23.99,338,383,1
+2026-10-20,west,King Edward,24,23.98,332,309,1
+2026-10-21,west,King Edward,24,23.99,370,321,1
+2026-10-22,west,King Edward,23,22.07,395,354,1
+2026-10-23,west,King Edward,22,21.74,356,384,1
+2026-10-24,west,King Edward,23,22.24,244,352,1
+2026-10-25,west,King Edward,24,23.99,366,274,1
+2026-10-26,west,King Edward,24,23.98,282,312,1
+2026-10-27,west,King Edward,24,23.6,318,332,1
+2026-10-28,west,King Edward,24,23.99,374,430,1
+2026-10-29,west,King Edward,24,23.99,427,317,1
+2026-10-30,west,King Edward,24,23.99,279,350,1
+2026-10-31,west,King Edward,24,23.99,283,335,1
+2026-11-01,west,King Edward,23,22.99,352,290,1
+2026-11-02,west,King Edward,24,23.99,506,294,1
+2026-11-03,west,King Edward,24,23.98,306,258,1
+2026-11-04,west,King Edward,24,23.99,558,325,1
+2026-11-05,west,King Edward,24,23.99,360,276,1
+2026-11-06,west,King Edward,24,23.99,434,286,1
+2026-11-07,west,King Edward,24,23.99,215,232,1
+2026-11-08,west,King Edward,24,23.99,277,212,1
+2026-11-09,west,King Edward,11,11.0,184,133,1
+2024-09-24,east,Draper,12,6.0,105,282,0
+2024-09-25,east,Draper,24,23.24,404,1786,1
+2024-09-26,east,Draper,18,16.99,320,929,1
+2024-09-27,east,Draper,20,18.74,664,1765,1
+2024-09-28,east,Draper,24,23.24,521,1349,1
+2024-09-29,east,Draper,24,23.99,478,1254,1
+2024-09-30,east,Draper,22,20.99,192,353,1
+2024-10-01,east,Draper,24,23.48,448,912,1
+2024-10-02,east,Draper,23,18.24,268,705,1
+2024-10-03,east,Draper,23,21.24,393,1396,1
+2024-10-04,east,Draper,22,19.99,421,1118,1
+2024-10-05,east,Draper,24,23.99,395,927,1
+2024-10-06,east,Draper,24,23.99,296,925,1
+2024-10-07,east,Draper,24,23.24,457,1716,1
+2024-10-08,east,Draper,24,22.99,466,1543,1
+2024-10-09,east,Draper,21,18.24,409,1472,1
+2024-10-10,east,Draper,20,17.73,388,1542,1
+2024-10-11,east,Draper,22,20.99,286,1133,1
+2024-10-12,east,Draper,24,22.99,215,972,1
+2024-10-13,east,Draper,24,22.74,248,1034,1
+2024-10-14,east,Draper,23,20.99,79,953,1
+2024-10-15,east,Draper,24,22.74,301,1825,1
+2024-10-16,east,Draper,24,22.24,369,1742,1
+2024-10-17,east,Draper,24,20.24,402,1528,1
+2024-10-18,east,Draper,24,22.24,332,1185,1
+2024-10-19,east,Draper,24,22.99,312,1072,1
+2024-10-20,east,Draper,24,23.99,367,887,1
+2024-10-21,east,Draper,24,22.49,490,1297,1
+2024-10-22,east,Draper,24,22.74,532,1177,1
+2024-10-23,east,Draper,24,21.99,512,1337,1
+2024-10-24,east,Draper,24,22.24,436,1099,1
+2024-10-25,east,Draper,24,22.74,355,1195,1
+2024-10-26,east,Draper,23,21.74,297,1087,1
+2024-10-27,east,Draper,24,23.24,201,1198,1
+2024-10-28,east,Draper,24,22.49,285,1093,1
+2024-10-29,east,Draper,24,22.24,407,1160,1
+2024-10-30,east,Draper,22,20.74,405,1426,1
+2024-10-31,east,Draper,22,21.24,486,1379,1
+2024-11-01,east,Draper,24,23.99,359,1249,1
+2024-11-02,east,Draper,24,23.99,185,1310,1
+2024-11-03,east,Draper,24,23.99,206,758,1
+2024-11-04,east,Draper,22,21.49,175,1360,1
+2024-11-05,east,Draper,24,22.49,332,1440,1
+2024-11-06,east,Draper,23,19.24,307,1226,1
+2024-11-07,east,Draper,22,17.49,248,1192,1
+2024-11-08,east,Draper,17,13.74,141,815,1
+2024-11-09,east,Draper,18,14.24,137,542,1
+2024-11-10,east,Draper,15,11.99,75,427,1
+2024-11-11,east,Draper,13,10.49,101,860,1
+2024-11-12,east,Draper,13,7.99,81,219,1
+2024-11-13,east,Draper,19,17.49,164,645,1
+2024-11-14,east,Draper,23,22.27,152,1344,1
+2024-11-15,east,Draper,24,23.99,247,1105,1
+2024-11-16,east,Draper,24,23.99,207,781,1
+2024-11-17,east,Draper,24,23.99,150,882,1
+2024-11-18,east,Draper,24,23.99,245,1469,1
+2024-11-19,east,Draper,24,23.99,220,1001,1
+2024-11-20,east,Draper,24,23.99,192,1420,1
+2024-11-21,east,Draper,24,23.99,197,1503,1
+2024-11-22,east,Draper,24,23.99,99,1103,1
+2024-11-23,east,Draper,24,23.99,189,1320,1
+2024-11-24,east,Draper,24,23.75,119,1158,1
+2024-11-25,east,Draper,23,22.72,148,1408,1
+2024-11-26,east,Draper,23,22.23,71,1466,1
+2024-11-27,east,Draper,24,23.99,126,1146,1
+2024-11-28,east,Draper,24,23.99,139,1514,1
+2024-11-29,east,Draper,24,23.67,134,1311,1
+2024-11-30,east,Draper,24,23.64,104,1249,1
+2024-12-01,east,Draper,24,23.99,72,1102,1
+2024-12-02,east,Draper,24,23.99,95,1208,1
+2024-12-03,east,Draper,24,23.49,109,1261,1
+2024-12-04,east,Draper,21,19.98,88,1350,1
+2024-12-05,east,Draper,24,23.4,64,786,1
+2024-12-06,east,Draper,24,23.49,45,584,1
+2024-12-07,east,Draper,22,21.23,17,460,1
+2024-12-08,east,Draper,19,17.49,18,592,1
+2024-12-09,east,Draper,21,19.21,38,723,1
+2024-12-10,east,Draper,22,20.98,28,817,1
+2024-12-11,east,Draper,24,22.94,16,1351,1
+2024-12-12,east,Draper,24,23.58,52,1317,1
+2024-12-13,east,Draper,23,22.74,43,1272,1
+2024-12-14,east,Draper,19,18.18,41,889,1
+2024-12-15,east,Draper,13,11.45,12,411,1
+2024-12-16,east,Draper,24,23.99,51,1275,1
+2024-12-17,east,Draper,24,23.99,94,1284,1
+2024-12-18,east,Draper,24,23.99,90,1479,1
+2024-12-19,east,Draper,24,23.99,54,1486,1
+2024-12-20,east,Draper,24,23.99,56,1465,1
+2024-12-21,east,Draper,24,23.99,32,475,1
+2024-12-22,east,Draper,24,23.48,14,526,1
 2024-12-23,east,Draper,20,19.47,18,840,1
-2024-12-24,east,Draper,18,17.13,25,910,1
-2024-12-25,east,Draper,24,23.0,13,246,1
-2024-12-26,east,Draper,24,24.0,17,277,1
-2024-12-27,east,Draper,24,24.0,20,612,1
-2024-12-28,east,Draper,24,24.0,12,598,1
-2024-12-29,east,Draper,24,24.0,11,400,1
-2024-12-30,east,Draper,24,24.0,65,915,1
-2024-12-31,east,Draper,24,24.0,113,970,1
-2025-01-01,east,Draper,24,24.0,11,417,1
-2025-01-02,east,Draper,24,24.0,41,795,1
-2025-01-03,east,Draper,24,24.0,49,955,1
-2025-01-04,east,Draper,24,24.0,24,490,1
-2025-01-05,east,Draper,24,24.0,22,480,1
-2025-01-06,east,Draper,24,24.0,27,829,1
-2025-01-07,east,Draper,24,24.0,38,1213,1
-2025-01-08,east,Draper,24,24.0,24,1101,1
-2025-01-09,east,Draper,24,24.0,19,1084,1
-2025-01-10,east,Draper,24,24.0,36,479,1
-2025-01-11,east,Draper,24,24.0,54,936,1
-2025-01-12,east,Draper,24,24.0,44,299,1
-2025-01-13,east,Draper,24,24.0,58,1067,1
-2025-01-14,east,Draper,24,24.0,27,686,1
-2025-01-15,east,Draper,23,21.94,88,940,1
-2025-01-16,east,Draper,20,19.54,40,651,1
-2025-01-17,east,Draper,24,24.0,40,667,1
-2025-01-18,east,Draper,24,24.0,34,367,1
-2025-01-19,east,Draper,24,24.0,11,556,1
-2025-01-20,east,Draper,22,19.79,17,550,1
-2025-01-21,east,Draper,16,13.83,21,414,1
-2025-01-22,east,Draper,21,20.74,40,640,1
-2025-01-23,east,Draper,15,13.21,16,476,1
-2025-01-24,east,Draper,16,15.99,24,291,1
-2025-01-25,east,Draper,24,23.38,15,489,1
-2025-01-26,east,Draper,24,24.0,18,359,1
-2025-01-27,east,Draper,24,23.22,18,676,1
-2025-01-28,east,Draper,24,23.68,22,657,1
-2025-01-29,east,Draper,23,21.83,57,1248,1
-2025-01-30,east,Draper,24,24.0,29,508,1
-2025-01-31,east,Draper,24,24.0,35,841,1
-2025-02-01,east,Draper,23,23.0,15,329,1
-2025-02-02,east,Draper,11,10.46,6,204,1
-2025-02-03,east,Draper,24,23.5,32,777,1
-2025-02-04,east,Draper,20,19.23,27,638,1
-2025-02-05,east,Draper,21,20.5,16,571,1
-2025-02-06,east,Draper,24,23.52,21,1002,1
-2025-02-07,east,Draper,24,24.0,34,1166,1
-2025-02-08,east,Draper,24,24.0,48,393,1
-2025-02-09,east,Draper,24,22.94,18,378,1
-2025-02-10,east,Draper,24,24.0,46,758,1
-2025-02-11,east,Draper,22,20.83,37,908,1
-2025-02-12,east,Draper,23,22.8,30,614,1
-2025-02-13,east,Draper,24,24.0,12,555,1
-2025-02-14,east,Draper,24,24.0,21,732,1
-2025-02-15,east,Draper,24,24.0,18,465,1
-2025-02-16,east,Draper,24,24.0,7,530,1
-2025-02-17,east,Draper,24,24.0,4,446,1
-2025-02-18,east,Draper,24,24.0,10,1023,1
-2025-02-19,east,Draper,24,24.0,21,749,1
-2025-02-20,east,Draper,24,24.0,11,474,1
-2025-02-21,east,Draper,24,24.0,6,480,1
-2025-02-22,east,Draper,24,24.0,7,304,1
-2025-02-23,east,Draper,24,24.0,8,444,1
-2025-02-24,east,Draper,24,24.0,11,607,1
-2025-02-25,east,Draper,24,24.0,11,657,1
-2025-02-26,east,Draper,24,24.0,27,430,1
-2025-02-27,east,Draper,24,24.0,29,787,1
-2025-02-28,east,Draper,24,24.0,25,421,1
-2025-03-01,east,Draper,24,24.0,14,515,1
-2025-03-02,east,Draper,24,24.0,8,314,1
-2025-03-03,east,Draper,23,21.52,17,268,1
-2025-03-04,east,Draper,24,24.0,34,489,1
-2025-03-05,east,Draper,22,19.17,18,854,1
-2025-03-06,east,Draper,24,24.0,47,668,1
-2025-03-07,east,Draper,24,24.0,40,764,1
-2025-03-08,east,Draper,24,24.0,87,989,1
-2025-03-09,east,Draper,23,23.0,42,664,1
-2025-03-10,east,Draper,24,24.0,95,1215,1
-2025-03-11,east,Draper,24,24.0,118,1003,1
-2025-03-12,east,Draper,23,22.75,68,995,1
-2025-03-13,east,Draper,24,24.06,108,996,1
+2024-12-24,east,Draper,18,17.12,25,910,1
+2024-12-25,east,Draper,24,22.98,12,245,1
+2024-12-26,east,Draper,24,23.99,17,277,1
+2024-12-27,east,Draper,24,23.99,20,612,1
+2024-12-28,east,Draper,24,23.99,12,598,1
+2024-12-29,east,Draper,24,23.99,11,400,1
+2024-12-30,east,Draper,24,23.99,65,915,1
+2024-12-31,east,Draper,24,23.99,113,970,1
+2025-01-01,east,Draper,24,23.99,11,417,1
+2025-01-02,east,Draper,24,23.99,41,795,1
+2025-01-03,east,Draper,24,23.99,49,955,1
+2025-01-04,east,Draper,24,23.99,24,490,1
+2025-01-05,east,Draper,24,23.99,22,480,1
+2025-01-06,east,Draper,24,23.99,27,829,1
+2025-01-07,east,Draper,24,23.99,38,1213,1
+2025-01-08,east,Draper,24,23.99,24,1101,1
+2025-01-09,east,Draper,24,23.99,19,1084,1
+2025-01-10,east,Draper,24,23.99,36,479,1
+2025-01-11,east,Draper,24,23.99,54,936,1
+2025-01-12,east,Draper,24,23.99,44,299,1
+2025-01-13,east,Draper,24,23.99,58,1067,1
+2025-01-14,east,Draper,24,23.99,27,686,1
+2025-01-15,east,Draper,23,21.93,88,940,1
+2025-01-16,east,Draper,20,19.53,40,651,1
+2025-01-17,east,Draper,24,23.99,40,667,1
+2025-01-18,east,Draper,24,23.99,34,367,1
+2025-01-19,east,Draper,24,23.99,11,556,1
+2025-01-20,east,Draper,22,19.78,17,550,1
+2025-01-21,east,Draper,16,13.82,21,413,1
+2025-01-22,east,Draper,21,20.73,40,640,1
+2025-01-23,east,Draper,15,13.21,16,475,1
+2025-01-24,east,Draper,16,15.98,24,291,1
+2025-01-25,east,Draper,24,23.37,15,488,1
+2025-01-26,east,Draper,24,23.99,18,359,1
+2025-01-27,east,Draper,24,23.21,18,676,1
+2025-01-28,east,Draper,24,23.67,22,657,1
+2025-01-29,east,Draper,23,21.82,56,1247,1
+2025-01-30,east,Draper,24,23.99,29,508,1
+2025-01-31,east,Draper,24,23.99,35,841,1
+2025-02-01,east,Draper,23,22.99,15,329,1
+2025-02-02,east,Draper,11,10.46,6,203,1
+2025-02-03,east,Draper,24,23.49,32,777,1
+2025-02-04,east,Draper,20,19.23,27,637,1
+2025-02-05,east,Draper,21,20.49,16,571,1
+2025-02-06,east,Draper,24,23.51,21,1002,1
+2025-02-07,east,Draper,24,23.99,34,1165,1
+2025-02-08,east,Draper,24,23.99,48,393,1
+2025-02-09,east,Draper,24,22.92,17,377,1
+2025-02-10,east,Draper,24,23.99,46,758,1
+2025-02-11,east,Draper,22,20.82,37,908,1
+2025-02-12,east,Draper,23,22.79,30,614,1
+2025-02-13,east,Draper,24,23.99,12,555,1
+2025-02-14,east,Draper,24,23.99,21,732,1
+2025-02-15,east,Draper,24,23.99,18,465,1
+2025-02-16,east,Draper,24,23.99,7,530,1
+2025-02-17,east,Draper,24,23.99,4,446,1
+2025-02-18,east,Draper,24,23.99,10,1023,1
+2025-02-19,east,Draper,24,23.99,21,749,1
+2025-02-20,east,Draper,24,23.99,11,474,1
+2025-02-21,east,Draper,24,23.99,6,480,1
+2025-02-22,east,Draper,24,23.99,7,304,1
+2025-02-23,east,Draper,24,23.99,8,444,1
+2025-02-24,east,Draper,24,23.99,11,607,1
+2025-02-25,east,Draper,24,23.99,11,657,1
+2025-02-26,east,Draper,24,23.99,27,430,1
+2025-02-27,east,Draper,24,23.99,29,787,1
+2025-02-28,east,Draper,24,23.99,25,421,1
+2025-03-01,east,Draper,24,23.99,14,515,1
+2025-03-02,east,Draper,24,23.99,8,314,1
+2025-03-03,east,Draper,23,21.51,17,268,1
+2025-03-04,east,Draper,24,23.99,34,489,1
+2025-03-05,east,Draper,22,19.16,18,852,1
+2025-03-06,east,Draper,24,23.99,47,668,1
+2025-03-07,east,Draper,24,23.99,40,764,1
+2025-03-08,east,Draper,24,23.99,87,989,1
+2025-03-09,east,Draper,23,22.99,42,664,1
+2025-03-10,east,Draper,24,23.99,95,1215,1
+2025-03-11,east,Draper,24,23.99,118,1003,1
+2025-03-12,east,Draper,23,22.74,68,995,1
+2025-03-13,east,Draper,24,24.05,108,996,1
 2025-03-14,east,Draper,5,4.47,0,0,0
-2025-03-15,east,Draper,24,23.25,184,1022,1
-2025-03-16,east,Draper,24,23.75,121,1472,1
-2025-03-17,east,Draper,24,22.68,153,1826,1
-2025-03-18,east,Draper,19,16.86,158,1451,1
-2025-03-19,east,Draper,13,11.27,221,1069,1
-2025-03-20,east,Draper,23,20.72,201,1490,1
-2025-03-21,east,Draper,24,24.0,179,1910,1
-2025-03-22,east,Draper,24,24.0,160,1378,1
-2025-03-23,east,Draper,24,22.94,92,1286,1
-2025-03-24,east,Draper,23,22.23,60,1527,1
-2025-03-25,east,Draper,24,24.0,150,1854,1
-2025-03-26,east,Draper,24,24.0,171,1853,1
-2025-03-27,east,Draper,24,23.57,161,1527,1
-2025-03-28,east,Draper,21,20.54,98,1441,1
-2025-03-29,east,Draper,24,22.36,63,1358,1
-2025-03-30,east,Draper,24,23.38,26,1277,1
-2025-03-31,east,Draper,24,24.0,100,1777,1
-2025-04-01,east,Draper,24,23.75,178,1874,1
-2025-04-02,east,Draper,24,22.22,139,1542,1
-2025-04-03,east,Draper,24,24.0,188,1964,1
-2025-04-04,east,Draper,24,24.0,230,1536,1
-2025-04-05,east,Draper,24,24.0,89,1684,1
-2025-04-06,east,Draper,24,24.0,221,1523,1
-2025-04-07,east,Draper,24,24.0,224,1508,1
-2025-04-08,east,Draper,24,24.0,108,1617,1
-2025-04-09,east,Draper,24,24.0,130,1507,1
-2025-04-10,east,Draper,24,23.88,187,1571,1
-2025-04-11,east,Draper,24,24.0,177,2144,1
-2025-04-12,east,Draper,24,24.0,261,1660,1
-2025-04-13,east,Draper,24,24.0,360,1253,1
-2025-04-14,east,Draper,24,24.0,333,1336,1
-2025-04-15,east,Draper,24,24.0,270,1889,1
-2025-04-16,east,Draper,24,24.0,139,1995,1
-2025-04-17,east,Draper,24,24.0,285,1864,1
-2025-04-18,east,Draper,24,24.0,248,1597,1
-2025-04-19,east,Draper,24,24.0,263,1564,1
-2025-04-20,east,Draper,24,24.0,310,1194,1
-2025-04-21,east,Draper,24,24.0,275,1395,1
-2025-04-22,east,Draper,24,24.0,300,2231,1
-2025-04-23,east,Draper,24,24.0,409,1947,1
-2025-04-24,east,Draper,24,23.06,419,1592,1
-2025-04-25,east,Draper,24,24.0,464,1940,1
-2025-04-26,east,Draper,24,24.0,101,1849,1
-2025-04-27,east,Draper,24,24.0,239,1823,1
-2025-04-28,east,Draper,24,24.0,576,1715,1
-2025-04-29,east,Draper,24,24.0,388,2132,1
-2025-04-30,east,Draper,24,24.0,453,1988,1
-2025-05-01,east,Draper,24,24.0,431,1548,1
-2025-05-02,east,Draper,24,24.0,447,2241,1
-2025-05-03,east,Draper,24,24.0,441,1854,1
-2025-05-04,east,Draper,21,18.06,1159,2372,1
-2025-05-05,east,Draper,24,22.8,611,1957,1
-2025-05-06,east,Draper,23,22.06,416,1907,1
-2025-05-07,east,Draper,24,24.0,610,2127,1
-2025-05-08,east,Draper,24,24.0,389,2148,1
-2025-05-09,east,Draper,24,24.0,202,2242,1
-2025-05-10,east,Draper,24,24.0,392,1904,1
-2025-05-11,east,Draper,24,24.0,599,1467,1
-2025-05-12,east,Draper,24,24.0,554,1955,1
-2025-05-13,east,Draper,24,23.52,802,1927,1
-2025-05-14,east,Draper,24,24.0,728,2092,1
-2025-05-15,east,Draper,24,24.0,793,2363,1
-2025-05-16,east,Draper,24,24.0,508,2041,1
-2025-05-17,east,Draper,24,24.0,237,1880,1
-2025-05-18,east,Draper,24,23.84,316,1666,1
-2025-05-19,east,Draper,24,24.0,377,1569,1
-2025-05-20,east,Draper,23,22.41,491,2579,1
-2025-05-21,east,Draper,24,24.0,589,2439,1
-2025-05-22,east,Draper,24,24.0,385,2444,1
-2025-05-23,east,Draper,24,24.0,266,2543,1
-2025-05-24,east,Draper,24,24.0,207,1927,1
-2025-05-25,east,Draper,24,24.0,496,1717,1
-2025-05-26,east,Draper,24,24.0,604,2006,1
-2025-05-27,east,Draper,24,23.53,783,1989,1
-2025-05-28,east,Draper,24,24.0,861,2085,1
-2025-05-29,east,Draper,24,24.0,502,2172,1
-2025-05-30,east,Draper,24,24.0,795,2359,1
-2025-05-31,east,Draper,24,24.0,254,1883,1
-2025-06-01,east,Draper,24,24.0,334,1728,1
-2025-06-02,east,Draper,24,24.0,708,2042,1
-2025-06-03,east,Draper,24,24.0,800,2054,1
-2025-06-04,east,Draper,24,24.0,849,1859,1
-2025-06-05,east,Draper,24,24.0,784,2274,1
-2025-06-06,east,Draper,24,23.41,707,2464,1
-2025-06-07,east,Draper,24,24.0,584,1955,1
-2025-06-08,east,Draper,24,24.0,801,1743,1
-2025-06-09,east,Draper,24,24.0,622,2103,1
-2025-06-10,east,Draper,24,24.0,661,2404,1
-2025-06-11,east,Draper,24,24.0,920,2232,1
-2025-06-12,east,Draper,24,24.0,944,2493,1
-2025-06-13,east,Draper,24,24.0,757,2212,1
-2025-06-14,east,Draper,24,24.0,721,1808,1
-2025-06-15,east,Draper,24,24.0,748,1586,1
-2025-06-16,east,Draper,24,24.0,906,1984,1
-2025-06-17,east,Draper,24,24.0,901,2169,1
-2025-06-18,east,Draper,24,24.0,796,2095,1
-2025-06-19,east,Draper,24,24.0,538,2133,1
-2025-06-20,east,Draper,24,24.0,564,2401,1
-2025-06-21,east,Draper,24,24.0,566,1471,1
-2025-06-22,east,Draper,24,24.0,566,1418,1
-2025-06-23,east,Draper,24,24.0,503,1721,1
-2025-06-24,east,Draper,24,24.0,424,1074,1
-2025-06-25,east,Draper,24,24.0,843,1978,1
-2025-06-26,east,Draper,24,24.0,746,2773,1
-2025-06-27,east,Draper,24,24.0,581,2710,1
-2025-06-28,east,Draper,24,24.0,363,1470,1
-2025-06-29,east,Draper,24,24.0,557,1442,1
-2025-06-30,east,Draper,24,24.0,670,1664,1
-2025-07-01,east,Draper,24,23.85,494,1333,1
-2025-07-02,east,Draper,24,24.0,676,1582,1
-2025-07-03,east,Draper,24,24.0,641,1934,1
-2025-07-04,east,Draper,20,19.4,645,1421,1
-2025-07-05,east,Draper,24,24.0,656,1613,1
-2025-07-06,east,Draper,24,24.0,461,1465,1
-2025-07-07,east,Draper,24,24.0,410,1632,1
-2025-07-08,east,Draper,24,24.0,777,1523,1
-2025-07-09,east,Draper,24,24.0,802,1699,1
-2025-07-10,east,Draper,24,24.0,686,1680,1
-2025-07-11,east,Draper,24,24.0,666,1651,1
-2025-07-12,east,Draper,24,24.0,486,1484,1
-2025-07-13,east,Draper,24,22.58,406,1345,1
-2025-07-14,east,Draper,24,24.0,668,1653,1
-2025-07-15,east,Draper,24,24.0,667,1669,1
-2025-07-16,east,Draper,24,23.95,630,1757,1
-2025-07-17,east,Draper,24,24.0,380,1812,1
-2025-07-18,east,Draper,24,24.0,613,1622,1
-2025-07-19,east,Draper,24,24.0,546,1345,1
-2025-07-20,east,Draper,24,24.0,554,1456,1
-2025-07-21,east,Draper,24,24.0,709,1541,1
-2025-07-22,east,Draper,24,24.0,669,1153,1
-2025-07-23,east,Draper,24,24.0,685,1618,1
-2025-07-24,east,Draper,24,24.0,607,1566,1
-2025-07-25,east,Draper,24,24.0,615,1691,1
-2025-07-26,east,Draper,24,24.0,530,1440,1
-2025-07-27,east,Draper,24,24.0,539,1290,1
-2025-07-28,east,Draper,21,20.0,1181,2833,1
-2025-07-29,east,Draper,24,24.0,639,1386,1
-2025-07-30,east,Draper,24,24.0,667,1568,1
-2025-07-31,east,Draper,24,24.0,738,1654,1
-2025-08-01,east,Draper,24,24.0,617,1565,1
-2025-08-02,east,Draper,24,24.0,638,1438,1
-2025-08-03,east,Draper,24,24.0,534,1349,1
-2025-08-04,east,Draper,24,24.0,679,1602,1
-2025-08-05,east,Draper,24,24.0,786,1618,1
-2025-08-06,east,Draper,24,24.0,668,1565,1
-2025-08-07,east,Draper,24,23.41,703,1551,1
-2025-08-08,east,Draper,24,24.0,641,1460,1
-2025-08-09,east,Draper,24,23.75,480,1359,1
-2025-08-10,east,Draper,24,24.0,498,1248,1
-2025-08-11,east,Draper,24,23.75,538,1679,1
-2025-08-12,east,Draper,24,24.0,510,2452,1
-2025-08-13,east,Draper,24,24.0,569,2349,1
-2025-08-14,east,Draper,24,24.0,716,2424,1
-2025-08-15,east,Draper,24,21.75,518,1317,1
-2025-08-16,east,Draper,24,15.75,451,1339,1
-2025-08-17,east,Draper,24,19.0,359,1157,1
-2025-08-18,east,Draper,24,19.0,582,1306,1
-2025-08-19,east,Draper,24,21.25,647,1484,1
-2025-08-20,east,Draper,24,24.0,705,1483,1
-2025-08-21,east,Draper,24,24.0,671,1506,1
-2025-08-22,east,Draper,24,24.0,659,1576,1
-2025-08-23,east,Draper,24,24.0,623,1732,1
-2025-08-24,east,Draper,24,24.0,494,1631,1
-2025-08-25,east,Draper,24,24.0,631,1722,1
-2025-08-26,east,Draper,24,24.0,597,1758,1
-2025-08-27,east,Draper,24,23.45,691,1911,1
-2025-08-28,east,Draper,21,19.37,486,2499,1
-2025-08-29,east,Draper,24,23.2,504,1846,1
-2025-08-30,east,Draper,24,24.0,251,1526,1
-2025-08-31,east,Draper,24,24.0,390,1076,1
-2025-09-01,east,Draper,24,24.0,539,949,1
-2025-09-02,east,Draper,24,24.0,546,1962,1
-2025-09-03,east,Draper,24,24.0,594,1327,1
-2025-09-04,east,Draper,24,24.0,373,1470,1
-2025-09-05,east,Draper,24,24.0,533,1530,1
-2025-09-06,east,Draper,24,24.0,264,1678,1
-2025-09-07,east,Draper,24,24.0,489,1741,1
-2025-09-08,east,Draper,24,24.0,527,1112,1
-2025-09-09,east,Draper,21,19.43,1482,2173,1
-2025-09-10,east,Draper,24,24.0,526,1342,1
-2025-09-11,east,Draper,24,24.0,660,1300,1
-2025-09-12,east,Draper,24,24.0,524,1303,1
-2025-09-13,east,Draper,24,24.0,478,1471,1
-2025-09-14,east,Draper,24,24.0,489,1177,1
-2025-09-15,east,Draper,24,24.0,565,1560,1
-2025-09-16,east,Draper,21,19.49,1348,3510,1
-2025-09-17,east,Draper,24,24.0,600,1626,1
-2025-09-18,east,Draper,24,23.31,488,1670,1
-2025-09-19,east,Draper,24,24.0,453,1403,1
-2025-09-20,east,Draper,24,24.0,335,1148,1
-2025-09-21,east,Draper,24,24.0,399,1028,1
-2025-09-22,east,Draper,24,24.0,569,1908,1
-2025-09-23,east,Draper,24,24.0,453,2029,1
-2025-09-24,east,Draper,24,24.0,748,1980,1
-2025-09-25,east,Draper,24,24.0,317,1984,1
-2025-09-26,east,Draper,24,24.0,704,2235,1
-2025-09-27,east,Draper,24,24.0,287,1114,1
-2025-09-28,east,Draper,24,24.0,495,1126,1
-2025-09-29,east,Draper,24,24.0,510,1367,1
-2025-09-30,east,Draper,24,24.0,486,1338,1
-2025-10-01,east,Draper,24,24.0,495,1444,1
-2025-10-02,east,Draper,24,24.0,379,1357,1
-2025-10-03,east,Draper,24,24.0,495,1416,1
-2025-10-04,east,Draper,24,24.0,409,1094,1
-2025-10-05,east,Draper,24,24.0,345,974,1
-2025-10-06,east,Draper,24,24.0,476,1298,1
-2025-10-07,east,Draper,24,24.0,345,1634,1
-2025-10-08,east,Draper,24,24.0,323,1252,1
-2025-10-09,east,Draper,24,24.0,298,1178,1
-2025-10-10,east,Draper,24,24.0,311,1196,1
-2025-10-11,east,Draper,24,24.0,217,911,1
-2025-10-12,east,Draper,24,24.0,205,773,1
-2025-10-13,east,Draper,24,23.5,290,972,1
-2025-10-14,east,Draper,24,24.0,434,1608,1
-2025-10-15,east,Draper,24,24.0,387,1444,1
-2025-10-16,east,Draper,24,23.0,284,1382,1
-2025-10-17,east,Draper,24,24.0,293,1324,1
-2025-10-18,east,Draper,24,24.0,303,1524,1
-2025-10-19,east,Draper,24,24.0,444,999,1
-2025-10-20,east,Draper,24,24.0,210,1514,1
-2025-10-21,east,Draper,24,24.0,360,1719,1
-2025-10-22,east,Draper,24,23.75,329,1762,1
-2025-10-23,east,Draper,24,24.0,319,1693,1
-2025-10-24,east,Draper,24,24.0,403,1568,1
-2025-10-25,east,Draper,23,22.25,317,1581,1
-2025-10-26,east,Draper,24,24.0,254,1089,1
-2025-10-27,east,Draper,24,24.0,335,1210,1
-2025-10-28,east,Draper,24,24.0,314,1097,1
-2025-10-29,east,Draper,24,24.0,349,1200,1
-2025-10-30,east,Draper,24,24.0,300,1635,1
-2025-10-31,east,Draper,24,24.0,155,1754,1
-2025-11-01,east,Draper,20,19.41,254,1561,1
-2025-11-02,east,Draper,22,19.64,227,1423,1
-2025-11-03,east,Draper,24,24.0,253,1537,1
-2025-11-04,east,Draper,24,24.0,345,1365,1
-2025-11-05,east,Draper,24,24.0,230,1630,1
-2025-11-06,east,Draper,24,23.43,302,1238,1
-2025-11-07,east,Draper,21,17.34,212,1801,1
-2025-11-08,east,Draper,22,21.25,210,1302,1
-2025-11-09,east,Draper,22,21.35,126,1261,1
-2025-11-10,east,Draper,15,13.76,86,908,1
-2025-11-11,east,Draper,24,24.0,41,634,1
-2025-11-12,east,Draper,24,24.0,42,966,1
-2025-11-13,east,Draper,24,24.0,60,773,1
-2025-11-14,east,Draper,24,24.0,5,735,1
-2025-11-15,east,Draper,24,24.0,33,866,1
-2025-11-16,east,Draper,18,15.66,11,471,1
-2025-11-17,east,Draper,24,24.0,24,629,1
-2025-11-18,east,Draper,24,24.0,17,830,1
-2025-11-19,east,Draper,24,24.0,21,787,1
-2025-11-20,east,Draper,24,24.0,39,1182,1
-2025-11-21,east,Draper,24,24.0,25,1060,1
-2025-11-22,east,Draper,24,24.0,130,1100,1
-2025-11-23,east,Draper,24,24.0,90,1189,1
-2025-11-24,east,Draper,24,24.0,86,1279,1
-2025-11-25,east,Draper,24,24.0,156,1500,1
-2025-11-26,east,Draper,24,24.0,107,1560,1
-2025-11-27,east,Draper,24,24.0,115,1542,1
-2025-11-28,east,Draper,24,24.0,79,1332,1
-2025-11-29,east,Draper,24,24.0,83,754,1
-2025-11-30,east,Draper,24,24.0,31,601,1
-2025-12-01,east,Draper,24,24.0,34,664,1
-2025-12-02,east,Draper,24,24.0,43,404,1
-2025-12-03,east,Draper,24,24.0,33,410,1
-2025-12-04,east,Draper,24,24.0,44,288,1
-2025-12-05,east,Draper,24,24.0,34,362,1
-2025-12-06,east,Draper,24,24.0,43,421,1
-2025-12-07,east,Draper,24,24.0,99,293,1
-2025-12-08,east,Draper,24,22.74,39,318,1
-2025-12-09,east,Draper,24,23.75,42,332,1
-2025-12-10,east,Draper,24,24.0,69,829,1
-2025-12-11,east,Draper,24,23.06,31,1014,1
-2025-12-12,east,Draper,15,7.63,65,1201,1
-2025-12-13,east,Draper,19,16.83,13,461,1
+2025-03-15,east,Draper,24,23.23,184,1021,1
+2025-03-16,east,Draper,24,23.74,121,1472,1
+2025-03-17,east,Draper,24,22.66,153,1824,1
+2025-03-18,east,Draper,19,16.85,158,1449,1
+2025-03-19,east,Draper,13,11.28,221,1068,1
+2025-03-20,east,Draper,23,20.7,200,1487,1
+2025-03-21,east,Draper,24,23.99,179,1910,1
+2025-03-22,east,Draper,24,23.99,160,1378,1
+2025-03-23,east,Draper,24,22.93,92,1286,1
+2025-03-24,east,Draper,23,22.21,60,1526,1
+2025-03-25,east,Draper,24,23.99,150,1854,1
+2025-03-26,east,Draper,24,23.99,170,1852,1
+2025-03-27,east,Draper,24,23.55,160,1526,1
+2025-03-28,east,Draper,21,20.53,97,1441,1
+2025-03-29,east,Draper,24,22.35,62,1357,1
+2025-03-30,east,Draper,24,23.37,25,1276,1
+2025-03-31,east,Draper,24,23.99,100,1777,1
+2025-04-01,east,Draper,24,23.49,179,1865,1
+2025-04-02,east,Draper,24,22.21,138,1540,1
+2025-04-03,east,Draper,24,23.99,188,1964,1
+2025-04-04,east,Draper,24,23.99,230,1536,1
+2025-04-05,east,Draper,24,23.99,89,1684,1
+2025-04-06,east,Draper,24,23.99,221,1523,1
+2025-04-07,east,Draper,24,23.99,224,1508,1
+2025-04-08,east,Draper,24,23.99,108,1617,1
+2025-04-09,east,Draper,24,23.99,129,1506,1
+2025-04-10,east,Draper,24,23.87,187,1571,1
+2025-04-11,east,Draper,24,23.99,177,2144,1
+2025-04-12,east,Draper,24,23.99,261,1660,1
+2025-04-13,east,Draper,24,23.99,360,1253,1
+2025-04-14,east,Draper,24,23.99,333,1336,1
+2025-04-15,east,Draper,24,23.99,270,1889,1
+2025-04-16,east,Draper,24,23.99,139,1995,1
+2025-04-17,east,Draper,24,23.99,285,1864,1
+2025-04-18,east,Draper,24,23.99,248,1597,1
+2025-04-19,east,Draper,24,23.98,263,1564,1
+2025-04-20,east,Draper,24,23.99,310,1194,1
+2025-04-21,east,Draper,24,23.99,275,1395,1
+2025-04-22,east,Draper,24,23.99,300,2231,1
+2025-04-23,east,Draper,24,23.99,409,1947,1
+2025-04-24,east,Draper,24,23.05,419,1592,1
+2025-04-25,east,Draper,24,23.99,464,1940,1
+2025-04-26,east,Draper,24,23.99,101,1849,1
+2025-04-27,east,Draper,24,23.99,239,1823,1
+2025-04-28,east,Draper,24,23.99,576,1715,1
+2025-04-29,east,Draper,24,23.99,388,2132,1
+2025-04-30,east,Draper,24,23.99,453,1988,1
+2025-05-01,east,Draper,24,23.99,431,1548,1
+2025-05-02,east,Draper,24,23.99,447,2241,1
+2025-05-03,east,Draper,24,23.99,441,1854,1
+2025-05-04,east,Draper,21,18.05,1158,2372,1
+2025-05-05,east,Draper,24,22.29,612,1955,1
+2025-05-06,east,Draper,23,22.04,415,1907,1
+2025-05-07,east,Draper,23,22.99,610,2127,1
+2025-05-08,east,Draper,24,23.99,389,2148,1
+2025-05-09,east,Draper,24,23.99,202,2242,1
+2025-05-10,east,Draper,24,23.74,392,1891,1
+2025-05-11,east,Draper,23,22.99,599,1467,1
+2025-05-12,east,Draper,24,23.74,554,1955,1
+2025-05-13,east,Draper,23,22.5,715,1788,1
+2025-05-14,east,Draper,24,23.99,728,2092,1
+2025-05-15,east,Draper,24,23.99,793,2363,1
+2025-05-16,east,Draper,23,22.49,508,2041,1
+2025-05-17,east,Draper,24,23.74,236,1874,1
+2025-05-18,east,Draper,24,23.82,316,1666,1
+2025-05-19,east,Draper,24,23.99,377,1569,1
+2025-05-20,east,Draper,23,22.4,490,2578,1
+2025-05-21,east,Draper,24,23.99,589,2439,1
+2025-05-22,east,Draper,24,23.99,385,2444,1
+2025-05-23,east,Draper,24,23.99,266,2543,1
+2025-05-24,east,Draper,24,23.99,207,1927,1
+2025-05-25,east,Draper,24,23.99,496,1717,1
+2025-05-26,east,Draper,24,23.98,604,2006,1
+2025-05-27,east,Draper,24,23.52,783,1989,1
+2025-05-28,east,Draper,24,23.98,861,2085,1
+2025-05-29,east,Draper,24,23.99,502,2172,1
+2025-05-30,east,Draper,24,23.99,795,2359,1
+2025-05-31,east,Draper,24,23.99,254,1883,1
+2025-06-01,east,Draper,24,23.99,334,1728,1
+2025-06-02,east,Draper,24,23.99,708,2042,1
+2025-06-03,east,Draper,24,23.99,800,2054,1
+2025-06-04,east,Draper,24,23.99,849,1859,1
+2025-06-05,east,Draper,24,23.99,784,2274,1
+2025-06-06,east,Draper,24,23.39,707,2464,1
+2025-06-07,east,Draper,24,23.98,584,1955,1
+2025-06-08,east,Draper,24,23.98,801,1743,1
+2025-06-09,east,Draper,24,23.99,622,2103,1
+2025-06-10,east,Draper,24,23.99,661,2404,1
+2025-06-11,east,Draper,24,23.99,920,2232,1
+2025-06-12,east,Draper,24,23.99,944,2493,1
+2025-06-13,east,Draper,24,23.99,757,2212,1
+2025-06-14,east,Draper,24,23.99,721,1808,1
+2025-06-15,east,Draper,24,23.99,748,1586,1
+2025-06-16,east,Draper,24,23.99,906,1984,1
+2025-06-17,east,Draper,24,23.98,901,2169,1
+2025-06-18,east,Draper,24,23.99,796,2095,1
+2025-06-19,east,Draper,24,23.99,538,2133,1
+2025-06-20,east,Draper,24,23.99,564,2401,1
+2025-06-21,east,Draper,24,23.99,566,1471,1
+2025-06-22,east,Draper,24,23.99,566,1418,1
+2025-06-23,east,Draper,24,23.99,503,1721,1
+2025-06-24,east,Draper,24,23.99,424,1074,1
+2025-06-25,east,Draper,24,23.99,843,1978,1
+2025-06-26,east,Draper,24,23.99,746,2773,1
+2025-06-27,east,Draper,24,23.99,581,2710,1
+2025-06-28,east,Draper,24,23.99,363,1470,1
+2025-06-29,east,Draper,24,23.99,557,1442,1
+2025-06-30,east,Draper,24,23.99,670,1664,1
+2025-07-01,east,Draper,24,23.83,494,1333,1
+2025-07-02,east,Draper,24,23.99,676,1582,1
+2025-07-03,east,Draper,24,23.99,641,1934,1
+2025-07-04,east,Draper,20,19.39,645,1421,1
+2025-07-05,east,Draper,24,23.99,656,1613,1
+2025-07-06,east,Draper,24,23.99,461,1465,1
+2025-07-07,east,Draper,24,23.99,410,1632,1
+2025-07-08,east,Draper,24,23.99,777,1523,1
+2025-07-09,east,Draper,24,23.99,802,1699,1
+2025-07-10,east,Draper,24,23.99,686,1680,1
+2025-07-11,east,Draper,24,23.99,666,1651,1
+2025-07-12,east,Draper,24,23.99,486,1484,1
+2025-07-13,east,Draper,24,22.57,405,1344,1
+2025-07-14,east,Draper,24,23.98,668,1653,1
+2025-07-15,east,Draper,24,23.99,667,1669,1
+2025-07-16,east,Draper,24,23.94,630,1756,1
+2025-07-17,east,Draper,24,23.99,380,1812,1
+2025-07-18,east,Draper,24,23.99,613,1622,1
+2025-07-19,east,Draper,24,23.99,546,1345,1
+2025-07-20,east,Draper,24,23.99,554,1456,1
+2025-07-21,east,Draper,24,23.99,709,1541,1
+2025-07-22,east,Draper,24,23.99,669,1153,1
+2025-07-23,east,Draper,24,23.99,685,1618,1
+2025-07-24,east,Draper,24,23.99,607,1566,1
+2025-07-25,east,Draper,24,23.99,615,1691,1
+2025-07-26,east,Draper,24,23.99,530,1440,1
+2025-07-27,east,Draper,24,23.99,539,1290,1
+2025-07-28,east,Draper,21,19.99,1180,2833,1
+2025-07-29,east,Draper,24,23.99,639,1386,1
+2025-07-30,east,Draper,24,23.99,667,1568,1
+2025-07-31,east,Draper,24,23.99,738,1654,1
+2025-08-01,east,Draper,24,23.99,617,1565,1
+2025-08-02,east,Draper,24,23.99,638,1438,1
+2025-08-03,east,Draper,24,23.99,534,1349,1
+2025-08-04,east,Draper,24,23.99,679,1602,1
+2025-08-05,east,Draper,24,23.99,786,1618,1
+2025-08-06,east,Draper,24,23.98,668,1565,1
+2025-08-07,east,Draper,24,23.4,703,1551,1
+2025-08-08,east,Draper,24,23.99,641,1460,1
+2025-08-09,east,Draper,24,23.74,480,1359,1
+2025-08-10,east,Draper,24,23.99,498,1248,1
+2025-08-11,east,Draper,24,23.74,538,1679,1
+2025-08-12,east,Draper,24,23.99,510,2452,1
+2025-08-13,east,Draper,24,23.99,569,2349,1
+2025-08-14,east,Draper,24,23.99,716,2424,1
+2025-08-15,east,Draper,24,21.74,515,1313,1
+2025-08-16,east,Draper,24,15.74,450,1337,1
+2025-08-17,east,Draper,24,18.99,358,1156,1
+2025-08-18,east,Draper,24,18.99,579,1302,1
+2025-08-19,east,Draper,24,21.24,647,1482,1
+2025-08-20,east,Draper,24,23.99,705,1483,1
+2025-08-21,east,Draper,24,23.98,671,1506,1
+2025-08-22,east,Draper,24,23.98,659,1576,1
+2025-08-23,east,Draper,24,23.99,623,1732,1
+2025-08-24,east,Draper,24,23.99,494,1631,1
+2025-08-25,east,Draper,24,23.98,631,1722,1
+2025-08-26,east,Draper,24,23.99,597,1758,1
+2025-08-27,east,Draper,24,23.44,691,1911,1
+2025-08-28,east,Draper,21,19.36,485,2498,1
+2025-08-29,east,Draper,24,23.18,504,1846,1
+2025-08-30,east,Draper,24,23.99,251,1526,1
+2025-08-31,east,Draper,24,23.99,390,1076,1
+2025-09-01,east,Draper,24,23.99,539,949,1
+2025-09-02,east,Draper,24,23.99,546,1962,1
+2025-09-03,east,Draper,24,23.99,594,1327,1
+2025-09-04,east,Draper,24,23.99,373,1470,1
+2025-09-05,east,Draper,24,23.99,533,1530,1
+2025-09-06,east,Draper,24,23.99,264,1678,1
+2025-09-07,east,Draper,24,23.98,489,1741,1
+2025-09-08,east,Draper,24,23.99,527,1112,1
+2025-09-09,east,Draper,21,19.42,1482,2173,1
+2025-09-10,east,Draper,24,23.99,526,1342,1
+2025-09-11,east,Draper,24,23.99,660,1300,1
+2025-09-12,east,Draper,24,23.99,524,1303,1
+2025-09-13,east,Draper,24,23.99,478,1471,1
+2025-09-14,east,Draper,24,23.99,489,1177,1
+2025-09-15,east,Draper,24,23.99,565,1560,1
+2025-09-16,east,Draper,21,19.48,1347,3509,1
+2025-09-17,east,Draper,24,23.99,600,1626,1
+2025-09-18,east,Draper,24,23.29,488,1669,1
+2025-09-19,east,Draper,24,23.99,453,1403,1
+2025-09-20,east,Draper,24,23.99,335,1148,1
+2025-09-21,east,Draper,24,23.99,399,1028,1
+2025-09-22,east,Draper,24,23.99,569,1908,1
+2025-09-23,east,Draper,24,23.99,453,2029,1
+2025-09-24,east,Draper,24,23.99,748,1980,1
+2025-09-25,east,Draper,24,23.99,317,1984,1
+2025-09-26,east,Draper,24,23.99,704,2235,1
+2025-09-27,east,Draper,24,23.99,287,1114,1
+2025-09-28,east,Draper,24,23.99,495,1126,1
+2025-09-29,east,Draper,24,23.99,510,1367,1
+2025-09-30,east,Draper,24,23.99,486,1338,1
+2025-10-01,east,Draper,24,23.98,495,1444,1
+2025-10-02,east,Draper,24,23.98,379,1357,1
+2025-10-03,east,Draper,24,23.99,495,1416,1
+2025-10-04,east,Draper,24,23.99,409,1094,1
+2025-10-05,east,Draper,24,23.99,345,974,1
+2025-10-06,east,Draper,24,23.99,476,1298,1
+2025-10-07,east,Draper,24,23.98,345,1634,1
+2025-10-08,east,Draper,24,23.98,323,1252,1
+2025-10-09,east,Draper,24,23.99,298,1178,1
+2025-10-10,east,Draper,24,23.99,311,1196,1
+2025-10-11,east,Draper,24,23.99,217,911,1
+2025-10-12,east,Draper,24,23.99,205,773,1
+2025-10-13,east,Draper,24,23.49,289,971,1
+2025-10-14,east,Draper,24,23.99,434,1608,1
+2025-10-15,east,Draper,24,23.99,387,1444,1
+2025-10-16,east,Draper,24,22.99,283,1382,1
+2025-10-17,east,Draper,24,23.99,293,1324,1
+2025-10-18,east,Draper,24,23.99,303,1524,1
+2025-10-19,east,Draper,24,23.98,444,999,1
+2025-10-20,east,Draper,24,23.99,210,1514,1
+2025-10-21,east,Draper,24,23.99,360,1719,1
+2025-10-22,east,Draper,24,23.73,329,1762,1
+2025-10-23,east,Draper,24,23.99,319,1693,1
+2025-10-24,east,Draper,24,23.99,403,1568,1
+2025-10-25,east,Draper,23,22.24,317,1581,1
+2025-10-26,east,Draper,24,23.99,254,1089,1
+2025-10-27,east,Draper,24,23.99,335,1210,1
+2025-10-28,east,Draper,24,23.98,314,1097,1
+2025-10-29,east,Draper,24,23.98,349,1200,1
+2025-10-30,east,Draper,24,23.98,300,1635,1
+2025-10-31,east,Draper,24,23.98,155,1754,1
+2025-11-01,east,Draper,20,19.4,254,1561,1
+2025-11-02,east,Draper,22,19.63,227,1422,1
+2025-11-03,east,Draper,24,23.99,253,1537,1
+2025-11-04,east,Draper,24,23.99,345,1365,1
+2025-11-05,east,Draper,24,23.99,230,1630,1
+2025-11-06,east,Draper,24,23.42,302,1237,1
+2025-11-07,east,Draper,21,17.33,212,1800,1
+2025-11-08,east,Draper,22,21.24,210,1302,1
+2025-11-09,east,Draper,22,21.34,126,1261,1
+2025-11-10,east,Draper,15,13.75,86,908,1
+2025-11-11,east,Draper,24,23.99,41,634,1
+2025-11-12,east,Draper,24,23.99,42,966,1
+2025-11-13,east,Draper,24,23.98,60,773,1
+2025-11-14,east,Draper,24,23.99,5,735,1
+2025-11-15,east,Draper,24,23.98,33,866,1
+2025-11-16,east,Draper,18,15.65,9,471,1
+2025-11-17,east,Draper,24,23.99,24,629,1
+2025-11-18,east,Draper,24,23.99,17,830,1
+2025-11-19,east,Draper,24,23.99,21,787,1
+2025-11-20,east,Draper,24,23.99,39,1182,1
+2025-11-21,east,Draper,24,23.98,25,1060,1
+2025-11-22,east,Draper,24,23.98,130,1100,1
+2025-11-23,east,Draper,24,23.98,90,1189,1
+2025-11-24,east,Draper,24,23.99,86,1279,1
+2025-11-25,east,Draper,24,23.99,156,1500,1
+2025-11-26,east,Draper,24,23.99,107,1560,1
+2025-11-27,east,Draper,24,23.99,115,1542,1
+2025-11-28,east,Draper,24,23.98,79,1332,1
+2025-11-29,east,Draper,24,23.98,83,754,1
+2025-11-30,east,Draper,24,23.99,31,601,1
+2025-12-01,east,Draper,24,23.99,34,664,1
+2025-12-02,east,Draper,24,23.99,43,404,1
+2025-12-03,east,Draper,24,23.99,33,410,1
+2025-12-04,east,Draper,24,23.99,44,288,1
+2025-12-05,east,Draper,24,23.99,34,362,1
+2025-12-06,east,Draper,24,23.98,43,421,1
+2025-12-07,east,Draper,24,23.98,99,293,1
+2025-12-08,east,Draper,24,22.72,39,318,1
+2025-12-09,east,Draper,24,23.74,42,331,1
+2025-12-10,east,Draper,24,23.99,69,829,1
+2025-12-11,east,Draper,24,23.05,31,1013,1
+2025-12-12,east,Draper,15,7.62,64,1201,1
+2025-12-13,east,Draper,19,16.82,13,461,1
 2025-12-14,east,Draper,14,11.69,15,284,1
-2025-12-15,east,Draper,24,24.0,27,444,1
-2025-12-16,east,Draper,24,23.25,34,525,1
-2025-12-17,east,Draper,13,10.72,56,688,1
-2025-12-18,east,Draper,24,22.98,53,574,1
-2025-12-19,east,Draper,24,24.0,45,1453,1
-2025-12-20,east,Draper,24,23.58,42,963,1
-2025-12-21,east,Draper,23,22.57,32,708,1
-2025-12-22,east,Draper,24,24.0,33,774,1
-2025-12-23,east,Draper,24,24.0,25,475,1
-2025-12-24,east,Draper,22,21.12,12,548,1
-2025-12-25,east,Draper,24,23.87,4,378,1
-2025-12-26,east,Draper,24,24.0,6,177,1
-2025-12-27,east,Draper,24,22.4,5,225,1
-2025-12-28,east,Draper,24,24.0,12,127,1
-2025-12-29,east,Draper,24,24.0,4,465,1
-2025-12-30,east,Draper,24,24.0,13,480,1
-2025-12-31,east,Draper,18,15.37,18,285,1
-2026-01-01,east,Draper,14,11.0,2,137,1
+2025-12-15,east,Draper,24,23.98,27,444,1
+2025-12-16,east,Draper,24,23.24,34,525,1
+2025-12-17,east,Draper,13,10.71,55,687,1
+2025-12-18,east,Draper,24,22.96,53,574,1
+2025-12-19,east,Draper,24,23.99,45,1453,1
+2025-12-20,east,Draper,24,23.57,42,963,1
+2025-12-21,east,Draper,23,22.55,32,708,1
+2025-12-22,east,Draper,24,23.98,33,774,1
+2025-12-23,east,Draper,24,23.99,25,475,1
+2025-12-24,east,Draper,22,21.11,12,548,1
+2025-12-25,east,Draper,24,23.86,4,378,1
+2025-12-26,east,Draper,24,23.99,6,177,1
+2025-12-27,east,Draper,24,22.39,5,225,1
+2025-12-28,east,Draper,24,23.99,12,127,1
+2025-12-29,east,Draper,24,23.98,4,465,1
+2025-12-30,east,Draper,24,23.99,13,480,1
+2025-12-31,east,Draper,18,15.36,17,284,1
+2026-01-01,east,Draper,14,10.99,2,136,1
 2026-01-02,east,Draper,1,0.25,0,57,0
 2026-01-03,east,Draper,15,12.69,9,73,1
-2026-01-04,east,Draper,21,20.1,16,251,1
-2026-01-05,east,Draper,14,13.22,15,353,1
+2026-01-04,east,Draper,21,20.09,16,251,1
+2026-01-05,east,Draper,14,13.21,15,353,1
 2026-01-06,east,Draper,9,8.23,43,331,1
-2026-01-07,east,Draper,4,2.83,1,36,0
-2026-01-08,east,Draper,18,16.84,38,400,1
-2026-01-09,east,Draper,21,19.27,51,773,1
-2026-01-10,east,Draper,24,24.0,115,942,1
-2026-01-11,east,Draper,17,11.99,28,192,1
-2026-01-12,east,Draper,24,23.8,47,853,1
-2026-01-13,east,Draper,24,24.0,29,474,1
-2026-01-14,east,Draper,24,24.0,49,625,1
-2026-01-15,east,Draper,23,22.5,31,1506,1
-2026-01-16,east,Draper,20,18.27,37,611,1
-2026-01-17,east,Draper,24,24.0,30,628,1
-2026-01-18,east,Draper,24,24.0,33,288,1
-2026-01-19,east,Draper,24,23.41,27,525,1
-2026-01-20,east,Draper,24,23.06,30,271,1
-2026-01-21,east,Draper,24,22.59,42,297,1
-2026-01-22,east,Draper,24,24.0,29,260,1
-2026-01-23,east,Draper,24,24.0,24,344,1
-2026-01-24,east,Draper,11,10.5,3,13,1
+2026-01-07,east,Draper,4,2.82,1,35,0
+2026-01-08,east,Draper,18,16.83,38,400,1
+2026-01-09,east,Draper,21,19.26,51,773,1
+2026-01-10,east,Draper,24,23.98,115,942,1
+2026-01-11,east,Draper,17,11.99,28,191,1
+2026-01-12,east,Draper,24,23.79,47,853,1
+2026-01-13,east,Draper,24,23.98,29,474,1
+2026-01-14,east,Draper,24,23.98,49,625,1
+2026-01-15,east,Draper,23,22.49,31,1506,1
+2026-01-16,east,Draper,20,18.26,37,610,1
+2026-01-17,east,Draper,24,23.99,30,628,1
+2026-01-18,east,Draper,24,23.99,33,288,1
+2026-01-19,east,Draper,24,23.39,27,525,1
+2026-01-20,east,Draper,24,23.05,30,271,1
+2026-01-21,east,Draper,24,22.57,42,297,1
+2026-01-22,east,Draper,24,23.98,29,260,1
+2026-01-23,east,Draper,24,23.99,24,344,1
+2026-01-24,east,Draper,11,10.49,3,13,1
+2026-05-05,east,Draper,7,4.79,143,1031,0
+2026-05-10,east,Draper,14,13.5,387,1360,1
+2026-05-11,east,Draper,24,23.99,475,1911,1
+2026-05-12,east,Draper,24,23.99,564,1867,1
+2026-05-13,east,Draper,24,23.99,260,2308,1
+2026-05-14,east,Draper,24,23.99,303,2292,1
+2026-05-15,east,Draper,24,23.98,529,2176,1
+2026-05-16,east,Draper,24,23.99,785,1620,1
+2026-05-17,east,Draper,24,23.99,834,1478,1
+2026-05-18,east,Draper,24,23.99,572,1389,1
+2026-05-19,east,Draper,24,23.99,695,1981,1
+2026-05-20,east,Draper,24,23.99,708,2024,1
+2026-05-21,east,Draper,24,22.59,551,1765,1
+2026-05-22,east,Draper,21,16.6,797,2005,1
+2026-05-23,east,Draper,24,23.05,713,1800,1
+2026-05-24,east,Draper,24,23.99,194,1790,1
+2026-05-25,east,Draper,24,23.99,489,2171,1
+2026-05-26,east,Draper,24,23.99,700,1919,1
+2026-05-27,east,Draper,24,23.99,724,2191,1
+2026-05-28,east,Draper,24,23.41,637,2326,1
+2026-05-29,east,Draper,24,23.99,320,2275,1
+2026-05-30,east,Draper,24,23.99,607,1593,1
+2026-05-31,east,Draper,24,23.16,587,1553,1
+2026-06-01,east,Draper,24,23.51,695,1690,1
+2026-06-02,east,Draper,24,23.99,747,1975,1
+2026-06-03,east,Draper,24,23.99,704,1614,1
+2026-06-04,east,Draper,24,23.59,742,2153,1
+2026-06-05,east,Draper,24,23.99,750,2455,1
+2026-06-06,east,Draper,23,22.97,236,1870,1
+2026-06-07,east,Draper,24,23.99,421,1660,1
+2026-06-08,east,Draper,24,23.98,725,1853,1
+2026-06-09,east,Draper,24,23.99,808,1905,1
+2026-06-10,east,Draper,24,23.99,600,2437,1
+2026-06-11,east,Draper,23,21.54,671,2479,1
+2026-06-12,east,Draper,24,23.99,639,2296,1
+2026-06-13,east,Draper,24,23.99,608,1737,1
+2026-06-14,east,Draper,20,18.45,81,985,1
+2026-06-15,east,Draper,23,20.68,550,1641,1
+2026-06-16,east,Draper,24,23.71,749,1913,1
+2026-06-17,east,Draper,24,23.99,670,2319,1
+2026-06-18,east,Draper,24,23.38,225,2467,1
+2026-06-19,east,Draper,24,22.86,281,2456,1
+2026-06-20,east,Draper,24,22.85,203,1773,1
+2026-06-21,east,Draper,24,23.99,482,1598,1
+2026-06-22,east,Draper,24,23.98,614,1743,1
+2026-06-23,east,Draper,24,23.99,773,1984,1
+2026-06-24,east,Draper,24,23.99,705,1294,1
+2026-06-25,east,Draper,22,19.48,637,1612,1
+2026-06-26,east,Draper,23,21.65,559,1740,1
+2026-06-27,east,Draper,21,19.02,841,2094,1
+2026-06-28,east,Draper,24,23.99,607,1381,1
+2026-06-29,east,Draper,24,23.98,681,1589,1
+2026-06-30,east,Draper,24,23.99,670,1771,1
+2026-07-01,east,Draper,22,20.39,458,1149,1
+2026-07-02,east,Draper,23,21.15,579,1728,1
+2026-07-03,east,Draper,11,8.26,508,1489,1
+2026-07-04,east,Draper,16,12.46,388,940,1
+2026-07-05,east,Draper,15,6.97,376,977,1
+2026-07-06,east,Draper,20,17.66,754,1643,1
+2026-07-07,east,Draper,21,19.29,976,2277,1
+2026-07-08,east,Draper,24,23.99,598,1703,1
+2026-07-09,east,Draper,23,22.07,434,1799,1
+2026-07-10,east,Draper,19,14.96,336,939,1
+2026-07-11,east,Draper,21,18.57,2602,2071,1
+2026-07-12,east,Draper,18,13.61,464,942,1
+2026-07-13,east,Draper,10,5.62,368,1065,0
+2026-07-14,east,Draper,19,17.69,604,1886,1
+2026-07-15,east,Draper,24,23.99,787,1982,1
+2026-07-16,east,Draper,24,23.99,679,1982,1
+2026-07-17,east,Draper,24,23.99,654,1547,1
+2026-07-18,east,Draper,21,19.49,206,1921,1
+2026-07-19,east,Draper,24,23.99,560,1260,1
+2026-07-20,east,Draper,24,23.99,669,1665,1
+2026-07-21,east,Draper,23,21.68,559,1779,1
+2026-07-22,east,Draper,17,15.27,919,2759,1
+2026-07-23,east,Draper,24,23.73,666,1679,1
+2026-07-24,east,Draper,24,23.99,697,1650,1
+2026-07-25,east,Draper,24,23.98,517,1286,1
+2026-07-26,east,Draper,24,23.99,651,1364,1
+2026-07-27,east,Draper,24,23.99,570,1402,1
+2026-07-28,east,Draper,22,20.9,396,1336,1
+2026-07-29,east,Draper,11,7.18,719,2771,1
+2026-07-30,east,Draper,20,17.2,609,1526,1
+2026-07-31,east,Draper,22,21.19,480,1257,1
+2026-08-01,east,Draper,24,23.99,557,1379,1
+2026-08-02,east,Draper,24,23.05,356,1393,1
+2026-08-03,east,Draper,19,18.38,238,1630,1
+2026-08-04,east,Draper,12,6.47,695,1393,1
+2026-08-05,east,Draper,14,13.3,509,1295,1
+2026-08-06,east,Draper,17,15.77,518,1711,1
+2026-08-07,east,Draper,24,23.99,569,1556,1
+2026-08-08,east,Draper,21,17.74,390,1487,1
+2026-08-09,east,Draper,24,23.99,648,1311,1
+2026-08-10,east,Draper,17,14.03,1115,3399,1
+2026-08-11,east,Draper,24,22.67,674,1730,1
+2026-08-12,east,Draper,18,16.58,383,1394,1
+2026-08-13,east,Draper,18,16.58,566,1518,1
+2026-08-14,east,Draper,21,19.17,1453,3254,1
+2026-08-15,east,Draper,21,18.87,740,1967,1
+2026-08-16,east,Draper,21,19.27,506,1180,1
+2026-08-17,east,Draper,17,15.4,493,1267,1
+2026-08-18,east,Draper,24,23.98,675,1247,1
+2026-08-19,east,Draper,19,14.48,602,1723,1
+2026-08-20,east,Draper,15,9.43,532,1104,1
+2026-08-21,east,Draper,24,23.05,579,1267,1
+2026-08-22,east,Draper,21,18.75,630,1165,1
+2026-08-23,east,Draper,20,17.99,324,1186,1
+2026-08-24,east,Draper,15,11.21,366,921,1
+2026-08-25,east,Draper,18,12.22,482,1424,1
+2026-08-26,east,Draper,24,23.99,629,1301,1
+2026-08-27,east,Draper,24,22.53,439,1421,1
+2026-08-28,east,Draper,24,23.22,606,1790,1
+2026-08-29,east,Draper,24,23.98,562,1161,1
+2026-08-30,east,Draper,24,23.94,524,1284,1
+2026-08-31,east,Draper,20,19.99,509,1132,1
+2026-09-01,east,Draper,24,23.46,562,1609,1
+2026-09-02,east,Draper,24,23.98,579,1869,1
+2026-09-03,east,Draper,24,22.36,605,2212,1
+2026-09-04,east,Draper,23,16.69,648,1968,1
+2026-09-05,east,Draper,24,23.98,459,1390,1
+2026-09-06,east,Draper,22,19.7,325,843,1
+2026-09-07,east,Draper,23,19.31,366,847,1
+2026-09-08,east,Draper,24,22.71,529,1626,1
+2026-09-09,east,Draper,24,18.87,424,1919,1
+2026-09-10,east,Draper,24,23.99,427,1354,1
+2026-09-11,east,Draper,16,12.43,416,1161,1
+2026-09-12,east,Draper,16,14.86,401,1042,1
+2026-09-13,east,Draper,24,23.99,387,1348,1
+2026-09-14,east,Draper,24,22.63,519,1507,1
+2026-09-15,east,Draper,20,15.42,545,1840,1
+2026-09-16,east,Draper,17,10.94,666,1755,1
+2026-09-17,east,Draper,8,2.74,325,794,0
+2026-09-18,east,Draper,20,19.39,553,1418,1
+2026-09-19,east,Draper,16,13.02,109,329,1
+2026-09-20,east,Draper,12,11.24,103,449,1
+2026-09-21,east,Draper,24,23.28,463,1362,1
+2026-09-22,east,Draper,24,23.99,439,1393,1
+2026-09-23,east,Draper,24,23.99,464,1433,1
+2026-09-24,east,Draper,24,23.99,433,1308,1
+2026-09-25,east,Draper,24,23.99,453,1307,1
+2026-09-26,east,Draper,24,23.98,424,1095,1
+2026-09-27,east,Draper,24,23.99,468,1365,1
+2026-09-28,east,Draper,24,23.99,315,1961,1
+2026-09-29,east,Draper,20,18.27,549,1961,1
+2026-09-30,east,Draper,13,7.35,278,1088,1
+2026-10-01,east,Draper,16,11.58,303,1592,1
+2026-10-02,east,Draper,24,22.92,341,2148,1
+2026-10-03,east,Draper,24,23.32,342,968,1
+2026-10-04,east,Draper,24,23.99,378,1340,1
+2026-10-05,east,Draper,24,23.42,420,1747,1
+2026-10-06,east,Draper,24,23.99,340,1300,1
+2026-10-07,east,Draper,22,18.56,355,1716,1
+2026-10-08,east,Draper,21,20.49,341,1598,1
+2026-10-09,east,Draper,24,23.73,390,1617,1
+2026-10-10,east,Draper,24,23.99,212,811,1
+2026-10-11,east,Draper,19,18.01,250,1205,1
+2026-10-12,east,Draper,18,16.1,148,750,1
+2026-10-13,east,Draper,19,14.33,116,1104,1
+2026-10-14,east,Draper,17,14.43,408,2399,1
+2026-10-15,east,Draper,11,4.54,122,514,0
+2026-10-16,east,Draper,24,21.52,204,1578,1
+2026-10-17,east,Draper,19,17.27,177,956,1
+2026-10-18,east,Draper,24,22.29,235,885,1
+2026-10-19,east,Draper,20,18.42,296,1295,1
+2026-10-20,east,Draper,23,22.26,168,610,1
+2026-10-21,east,Draper,18,17.24,196,904,1
+2026-10-22,east,Draper,5,2.58,41,167,0
+2026-10-23,east,Draper,9,5.84,55,183,0
+2026-10-24,east,Draper,13,10.48,19,142,1
+2026-10-25,east,Draper,2,0.96,166,233,0
+2026-10-26,east,Draper,6,2.17,38,532,0
+2026-10-27,east,Draper,5,2.83,55,308,0
+2026-10-28,east,Draper,11,10.24,76,577,1
+2026-10-29,east,Draper,11,9.78,183,598,1
+2026-10-30,east,Draper,13,12.24,171,803,1
+2026-10-31,east,Draper,1,0.15,0,0,0
+2026-11-01,east,Draper,5,3.87,2,41,0
